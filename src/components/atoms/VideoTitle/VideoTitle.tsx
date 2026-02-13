@@ -39,20 +39,12 @@ export const VideoTitle = ({
   useEffect(() => {
     if (!lenis) return
 
-    const update = () => {
-      const scroll = lenis.scroll
-      
-      // If pushToRead is true, we want the container to be fixed (pinned).
-      // We rely on CSS position: fixed for that.
-      // We do NOT want to translate it vertically with scroll, otherwise it scrolls away.
-      // If pushToRead is false, it's relative and scrolls naturally.
+    const update = (time: number, deltaTime: number, frame: number) => {
+      const scroll = lenis.scroll || 0 
       
       if (titleWrapperRef.current) {
         // Move text horizontally based on scroll
-        // Svelte: left: {offset + $smoothScrollTarget * scaleSpeed}px
-        // $smoothScrollTarget is -scroll.
-        // So left should be offset - scroll * scaleSpeed
-        titleWrapperRef.current.style.left = `${offset - scroll * scaleSpeed}px`
+        titleWrapperRef.current.style.transform = `translate3d(${offset - scroll * scaleSpeed}px, 0, 0)`
       }
     }
 

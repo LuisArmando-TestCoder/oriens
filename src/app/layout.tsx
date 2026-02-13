@@ -2,6 +2,7 @@ import type { Metadata } from "next";
 import { Geist, Geist_Mono } from "next/font/google";
 import { Navigation } from "@/components/organisms/Navigation/Navigation";
 import { Footer } from "@/components/organisms/Footer/Footer";
+import { SmoothScroll } from "@/components/organisms/SmoothScroll/SmoothScroll";
 import "../styles/globals.scss";
 
 const geistSans = Geist({
@@ -27,9 +28,11 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body className={`${geistSans.variable} ${geistMono.variable}`}>
-        <Navigation />
-        {children}
-        <Footer />
+        <SmoothScroll>
+          <Navigation />
+          {children}
+          <Footer />
+        </SmoothScroll>
       </body>
     </html>
   );

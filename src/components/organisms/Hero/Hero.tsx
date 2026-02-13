@@ -13,8 +13,8 @@ export const Hero = () => {
   const router = useRouter()
 
   const handleExplore = () => {
-    setExplored(true)
     router.push('/projects')
+    setExplored(true)
   }
 
   return (
@@ -27,7 +27,6 @@ export const Hero = () => {
             Poética orgánica, corporal y ontológicamente violenta
             </SplitText>
         </p>
-
         <Magnetic>
             <Button id="hero-cta" onClick={handleExplore}>EXPLORE</Button>
         </Magnetic>
