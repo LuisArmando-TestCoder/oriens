@@ -1,6 +1,7 @@
 import React from 'react';
 import { Heading } from '@/components/atoms/Heading/Heading';
 import { VideoTitle } from '@/components/atoms/VideoTitle/VideoTitle';
+import { SplitText } from '@/components/molecules/SplitText/SplitText';
 import styles from './page.module.scss';
 
 export default function AboutPage() {
@@ -23,7 +24,9 @@ export default function AboutPage() {
         </section>
 
         <section className={styles.section}>
-            <Heading id="estilo" tag="h2">Estilo</Heading>
+            <Heading id="estilo" tag="h2">
+                <SplitText id="estilo-text" delay={0.2}>Estilo</SplitText>
+            </Heading>
             <p>La prosa de Oriens se distingue por:</p>
             <ul>
                 <li><strong>Anclaje temporal exacto</strong>: fechas, horas y minutos que funcionan como dispositivos de verosimilitud clínica.</li>
@@ -36,7 +39,9 @@ export default function AboutPage() {
         </section>
 
         <section className={styles.section}>
-            <Heading id="temas-recurrentes" tag="h2">Temas recurrentes</Heading>
+            <Heading id="temas-recurrentes" tag="h2">
+                <SplitText id="temas-recurrentes-text" delay={0.2}>Temas recurrentes</SplitText>
+            </Heading>
             
             <div className={styles.topic}>
                 <h3>1. El cuerpo como territorio metafísico</h3>
@@ -65,26 +70,34 @@ export default function AboutPage() {
         </section>
 
         <section className={styles.section}>
-            <Heading id="estructura-tecnica" tag="h2">Estructura y técnica</Heading>
+            <Heading id="estructura-tecnica" tag="h2">
+                <SplitText id="estructura-tecnica-text" delay={0.2}>Estructura y técnica</SplitText>
+            </Heading>
             <p>La obra se organiza en entradas fechadas, lo que produce una tensión entre diario íntimo y documento clínico. La fragmentación no implica dispersión temática, sino reiteración obsesiva en espiral.</p>
             <p>El uso de segunda persona es frecuente y ambiguo: puede referirse a una amante, a una entidad trascendente, al lector o a una construcción psíquica.</p>
         </section>
 
         <section className={styles.section}>
-            <Heading id="recepcion" tag="h2">Recepción y lectura crítica</Heading>
+            <Heading id="recepcion" tag="h2">
+                <SplitText id="recepcion-text" delay={0.2}>Recepción y lectura crítica</SplitText>
+            </Heading>
             <p>La crítica ha señalado en Oriens una escritura de alta densidad imaginal y riesgo emocional. Se le asocia con una tradición que integra mística corporal, existencialismo y estética postdigital.</p>
             <p>Algunos análisis apuntan a una tendencia a la saturación enumerativa y a la reiteración simbólica, mientras que otros destacan la coherencia interna de su universo poético.</p>
         </section>
 
         <section className={styles.section}>
-            <Heading id="obra-destacada" tag="h2">Obra destacada</Heading>
+            <Heading id="obra-destacada" tag="h2">
+                <SplitText id="obra-destacada-text" delay={0.2}>Obra destacada</SplitText>
+            </Heading>
             <ul>
                 <li><em>Sin anestesia</em> (2024–2026), ciclo de textos performativos presentados en recitales literarios, entre ellos en la Casa de Cultura del Banco Popular, Escalante (febrero de 2026).</li>
             </ul>
         </section>
 
         <section className={styles.section}>
-             <Heading id="rasgos-distintivos" tag="h2">Rasgos distintivos</Heading>
+             <Heading id="rasgos-distintivos" tag="h2">
+                <SplitText id="rasgos-distintivos-text" delay={0.2}>Rasgos distintivos</SplitText>
+             </Heading>
              <ul>
                 <li>Escritura performativa diseñada para lectura en voz alta.</li>
                 <li>Intensidad sostenida sin concesiones al sentimentalismo.</li>
@@ -104,7 +117,9 @@ export default function AboutPage() {
 
              <p><strong>Aba Oriens</strong> es el seudónimo de un autor hispanohablante contemporáneo cuya obra se caracteriza por la apropiación estilística de voces literarias canónicas, la exploración explícita de la autodestrucción, la mística corporal y la crítica sistémica postindustrial. Su producción combina prosa poética, monólogo dramático, ensayo metafísico y ciencia ficción especulativa.</p>
 
-             <Heading id="obras-destacadas-2" tag="h2">Obras destacadas</Heading>
+             <Heading id="obras-destacadas-2" tag="h2">
+                <SplitText id="obras-destacadas-2-text" delay={0.2}>Obras destacadas</SplitText>
+             </Heading>
              <div className={styles.work}>
                 <h3>Sin anestesia (2024–2026)</h3>
                 <p>Ciclo fragmentario fechado que articula erotismo, trauma, parto, violencia simbólica y crítica cultural. Concebido para lectura performativa.</p>
@@ -120,7 +135,9 @@ export default function AboutPage() {
                 <p>Libro estructurado en doce capítulos titulados “Soy un poema de…”, donde el autor asume máscaras estilísticas asociadas a figuras como Emil Cioran, Sylvia Plath, Antonin Artaud, Dorothy Parker, Ana Istarú, Franz Kafka, Allen Ginsberg, Charles Baudelaire, Douglas Adams, Alejandra Pizarnik, Arthur Rimbaud y Delmira Agustini. El texto funciona como laboratorio de identidad y parodia reverencial.</p>
              </div>
 
-             <Heading id="estructura-concepcion" tag="h2">Estructura y concepción</Heading>
+             <Heading id="estructura-concepcion" tag="h2">
+                <SplitText id="estructura-concepcion-text" delay={0.2}>Estructura y concepción</SplitText>
+             </Heading>
              
              <h3>Arquitectura capitular por apropiación</h3>
              <p>Cada capítulo adopta el tono, obsesiones y ritmos atribuidos a un autor específico, no como imitación formal estricta sino como absorción temática: nihilismo, suicidio performativo, violencia metafísica, ironía cínica, erotismo místico, burocracia distópica, delirio beat, decadentismo, sátira cósmica, lirismo existencial, renuncia a la poesía y erotismo sacrificial.</p>
@@ -139,7 +156,9 @@ export default function AboutPage() {
              <h3>Continuidad de personajes</h3>
              <p>Figuras como Astra, Amalia, Luciano, Crío Errante y entidades como el “Gran Gestor” atraviesan distintos planos narrativos, articulando una mitología personal que oscila entre lo íntimo y lo cósmico.</p>
 
-             <Heading id="temas-recurrentes-adicional" tag="h2">Temas recurrentes (Adicional)</Heading>
+             <Heading id="temas-recurrentes-adicional" tag="h2">
+                <SplitText id="temas-recurrentes-adicional-text" delay={0.2}>Temas recurrentes (Adicional)</SplitText>
+             </Heading>
              
              <div className={styles.topic}>
                  <h3>1. Suicidio como dramaturgia</h3>
@@ -171,7 +190,9 @@ export default function AboutPage() {
                  <p>El ensayo final desarrolla una imagen de Dios como jardinero austero, soberano sin deseo de dominio, cuestionado moralmente por el sufrimiento humano.</p>
              </div>
 
-             <Heading id="estilo-2" tag="h2">Estilo</Heading>
+             <Heading id="estilo-2" tag="h2">
+                <SplitText id="estilo-2-text" delay={0.2}>Estilo</SplitText>
+             </Heading>
              <ul>
                 <li>Léxico técnico integrado a la metáfora.</li>
                 <li>Enumeraciones extensas de alta densidad sensorial.</li>
@@ -182,7 +203,9 @@ export default function AboutPage() {
              </ul>
              <p>La prosa oscila entre el barroquismo acumulativo y el verso minimalista.</p>
 
-             <Heading id="recepcion-critica-hipotetica" tag="h2">Recepcion crítica (hipotética)</Heading>
+             <Heading id="recepcion-critica-hipotetica" tag="h2">
+                <SplitText id="recepcion-critica-hipotetica-text" delay={0.2}>Recepcion crítica (hipotética)</SplitText>
+             </Heading>
              <p>La obra ha sido descrita como:</p>
              <ul>
                 <li>“Autoficción cósmica con pulsión mística”.</li>
@@ -191,7 +214,9 @@ export default function AboutPage() {
              </ul>
              <p>Algunos análisis señalan tendencia a la sobreabundancia imaginal y repetición temática; otros destacan su coherencia simbólica y la construcción de una mitología propia reconocible.</p>
 
-             <Heading id="rasgos-distintivos-2" tag="h2">Rasgos distintivos</Heading>
+             <Heading id="rasgos-distintivos-2" tag="h2">
+                <SplitText id="rasgos-distintivos-2-text" delay={0.2}>Rasgos distintivos</SplitText>
+             </Heading>
              <ul>
                 <li>Uso sistemático de la máscara literaria como método de autoconstrucción.</li>
                 <li>Reescritura del trauma mediante ciencia ficción especulativa.</li>
@@ -206,7 +231,9 @@ export default function AboutPage() {
         <hr className={styles.divider} />
 
         <section className={styles.section} id="developer-profile">
-            <Heading id="creative-engineer" tag="h2">Creative Engineer</Heading>
+            <Heading id="creative-engineer" tag="h2">
+                <SplitText id="creative-engineer-text" delay={0.2}>Creative Engineer</SplitText>
+            </Heading>
             <div className={styles.intro}>
                 <p><strong>Luis Murillo Baltodano</strong> (Senior Creative Engineer)</p>
                 <p>Deeply interested in delivering clean experiences to all types of users when creating the product, because its quality in all axis feels deeply personal.</p>
