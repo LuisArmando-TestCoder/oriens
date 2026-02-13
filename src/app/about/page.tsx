@@ -2,6 +2,7 @@ import React from 'react';
 import { Heading } from '@/components/atoms/Heading/Heading';
 import { VideoTitle } from '@/components/atoms/VideoTitle/VideoTitle';
 import { SplitText } from '@/components/molecules/SplitText/SplitText';
+import { ModernSlider } from '@/components/organisms/ModernSlider/ModernSlider';
 import styles from './page.module.scss';
 
 export default function AboutPage() {
@@ -11,13 +12,12 @@ export default function AboutPage() {
       <div className={styles.container}>
         
         <section className={styles.intro}>
-            <div className={styles.images}>
-                 {/* Placeholders for images if we can't use external URLs directly without configuration, 
-                     but for now I will try to structure the text first. 
-                     The user provided image URLs. I will include them as img tags for now.
-                 */}
-                 <img src="https://i.etsystatic.com/54485624/r/il/c93a61/6255923446/il_570xN.6255923446_cubp.jpg" alt="Aba Oriens visual 1" />
-                 <img src="https://elements-resized.envatousercontent.com/elements-video-cover-images/files/a0c1a368-c293-4d57-9574-19a8af7ccd8c/inline_image_preview.jpg?cf_fit=cover&format=auto&q=85&s=c420b90fb08f968c114a07c69dc78948a213e8e9152a3bf22f5c8560f672e372&w=500" alt="Aba Oriens visual 2" />
+            <div className={styles.sliderContainer}>
+                 <ModernSlider images={[
+                    { src: "/1.jpeg", alt: "Aba Oriens visual 1" },
+                    { src: "/2.jpeg", alt: "Aba Oriens visual 2" },
+                    { src: "/3.jpeg", alt: "Aba Oriens visual 3" }
+                 ]} />
             </div>
 
             <p><strong>Aba Oriens</strong> es el seudónimo de un autor contemporáneo en lengua española cuya obra se caracteriza por una poética orgánica, corporal y ontológicamente violenta. Su escritura combina fisiología, mística y crítica cultural en composiciones fragmentarias fechadas con precisión cronológica. Su producción reciente está vinculada a recitales performativos en espacios culturales independientes.</p>
@@ -110,11 +110,6 @@ export default function AboutPage() {
         <hr className={styles.divider} />
 
         <section className={styles.part2}>
-             <div className={styles.images}>
-                 <img src="https://i.pinimg.com/564x/b5/6d/89/b56d891edfcc4589afe7e1fc2f3baab1.jpg" alt="Aba Oriens visual 3" />
-                 <img src="https://img.pikbest.com/ai/illus_our/20230526/27b8dd205e75fa6bb2d43fe83a0e6ada.jpg!w700wp" alt="Aba Oriens visual 4" />
-             </div>
-
              <p><strong>Aba Oriens</strong> es el seudónimo de un autor hispanohablante contemporáneo cuya obra se caracteriza por la apropiación estilística de voces literarias canónicas, la exploración explícita de la autodestrucción, la mística corporal y la crítica sistémica postindustrial. Su producción combina prosa poética, monólogo dramático, ensayo metafísico y ciencia ficción especulativa.</p>
 
              <Heading id="obras-destacadas-2" tag="h2">
