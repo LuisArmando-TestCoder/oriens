@@ -81,7 +81,7 @@ interface ParticleImageProps {
 }
 
 export const ParticleImage = ({ texture, scale = 1 }: ParticleImageProps) => {
-  const materialRef = useRef<any>()
+  const materialRef = useRef<any>(null)
   const pointsRef = useRef<THREE.Points>(null)
 
   const { positions, colors, sizes } = useMemo(() => {
