@@ -26,16 +26,18 @@ export const SmoothScroll = ({ children }: { children: React.ReactNode }) => {
     // Synchronize Lenis with GSAP ScrollTrigger
     lenis.on('scroll', ScrollTrigger.update)
 
-    gsap.ticker.add((time) => {
+    const update = (time: number, deltaTime: number, frame: number) => {
       lenis.raf(time * 1000)
-    })
+    }
 
+    gsap.ticker.add(update)
     gsap.ticker.lagSmoothing(0)
 
     return () => {
       lenis.destroy()
       setLenis(undefined)
-      gsap.ticker.remove(lenis.raf)
+      gsap.ticker.remove(update)
+      ScrollTrigger.getAll().forEach(t => t.kill())
     }
   }, [setLenis])
 

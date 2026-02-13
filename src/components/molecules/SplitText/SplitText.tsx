@@ -37,13 +37,21 @@ export const SplitText: React.FC<SplitTextProps> = ({ id, children, className, d
         stagger: 0.05,
         scrollTrigger: {
           trigger: ref.current,
-          start: 'top 95%',
-          end: 'center 50%',
+          start: 'top bottom', // Start when top of element hits bottom of viewport
+          end: 'center center', // End when center of element hits center of viewport
           scrub: 1,
         }
       }
     )
   }, [delay])
+
+  useEffect(() => {
+    // Force refresh to ensure positions are correct after mount/layout changes
+    const timeout = setTimeout(() => {
+        ScrollTrigger.refresh()
+    }, 100)
+    return () => clearTimeout(timeout)
+  }, [])
 
   return (
     <span id={id} ref={ref} className={clsx(styles.wrapper, className)}>

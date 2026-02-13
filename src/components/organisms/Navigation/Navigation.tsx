@@ -38,6 +38,12 @@ export const Navigation = () => {
               <Link href="/" className={styles.link} onClick={closeMenu}>
                   HOME
               </Link>
+              <Link href="/projects" className={styles.link} onClick={closeMenu}>
+                  PROJECTS
+              </Link>
+              <Link href="/poems" className={styles.link} onClick={closeMenu}>
+                  POEMS
+              </Link>
               <Link href="/about" className={styles.link} onClick={closeMenu}>
                   ABOUT
               </Link>

@@ -1,14 +1,13 @@
 import React from 'react';
 import { Heading } from '@/components/atoms/Heading/Heading';
+import { VideoTitle } from '@/components/atoms/VideoTitle/VideoTitle';
 import styles from './page.module.scss';
 
 export default function AboutPage() {
   return (
     <main className={styles.about}>
+      <VideoTitle text="Aba Oriens" pushToRead />
       <div className={styles.container}>
-        <header className={styles.header}>
-            <Heading id="aba-oriens" tag="h1">Aba Oriens</Heading>
-        </header>
         
         <section className={styles.intro}>
             <div className={styles.images}>
@@ -202,6 +201,39 @@ export default function AboutPage() {
              </ul>
 
              <p>La obra de Aba Oriens se inscribe en una tradición de escritura confesional radical que transforma el colapso psíquico en arquitectura simbólica y el amor en reorganización cosmológica.</p>
+        </section>
+
+        <hr className={styles.divider} />
+
+        <section className={styles.section} id="developer-profile">
+            <Heading id="creative-engineer" tag="h2">Creative Engineer</Heading>
+            <div className={styles.intro}>
+                <p><strong>Luis Murillo Baltodano</strong> (Senior Creative Engineer)</p>
+                <p>Deeply interested in delivering clean experiences to all types of users when creating the product, because its quality in all axis feels deeply personal.</p>
+                <p>Regarding software development, the fields I am most passionate about are computer graphics, generative art, automation, and optimization of our day-to-day life.</p>
+            </div>
+
+            <div className={styles.topic}>
+                <h3>Technical Stack</h3>
+                <p><strong>JavaScript/TypeScript</strong>: Used every single day (server side and front-end), with different frameworks depending on the project (React, Next.js, Vue.js) or even bare JavaScript.</p>
+                <p><strong>Go (Golang)</strong>: My best friend when it comes to web services and/or automation tools.</p>
+                <p><strong>Creative Coding</strong>: Three.js, A-Frame, P5.js, and custom libraries are the tools picked when working with 2D and 3D graphics.</p>
+            </div>
+
+            <div className={styles.topic}>
+                <h3>Philosophy</h3>
+                <p>I am open to use any tool (library, framework, methodology) to get the best product. We turn job-trapped founders into owners. Most people with great ideas get stuck in the execution. We build the leverage so you can focus on the exploration.</p>
+            </div>
+
+            <div className={styles.topic}>
+                <h3>Contact</h3>
+                <p>Where to find me:</p>
+                <ul>
+                    <li><a href="https://github.com/LuisArmando-TestCoder" target="_blank" rel="noopener noreferrer">GitHub</a></li>
+                    <li><a href="https://codepen.io/LuisArmando-TC" target="_blank" rel="noopener noreferrer">CodePen</a></li>
+                    <li><a href="mailto:oriens@aiban.news">Email</a></li>
+                </ul>
+            </div>
         </section>
       </div>
     </main>

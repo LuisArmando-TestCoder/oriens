@@ -1,0 +1,129 @@
+@use '@/styles/mixins' as *;
+
+.projects {
+  min-height: 100vh;
+  background-color: var(--background);
+  color: var(--foreground);
+}
+
+.hero {
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 0 5vw;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+}
+
+.title {
+  @include font-heading;
+  font-size: 8rem;
+  margin: 0;
+  text-align: center;
+
+  @media (max-width: 768px) {
+    font-size: 4rem;
+  }
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: repeat(12, 1fr);
+  gap: 0;
+  max-width: 100%;
+  margin: 0 auto;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+
+  @media (max-width: 768px) {
+    display: flex;
+    flex-direction: column;
+  }
+}
+
+.card {
+  padding: 4rem;
+  border-right: 1px solid rgba(255, 255, 255, 0.1);
+  transition: all 0.3s ease;
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  overflow: hidden;
+
+  // Newspaper grid layout
+  &:nth-child(1) {
+    grid-column: span 8;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+    
+    h3 { font-size: 4rem; }
+    p { font-size: 1.2rem; }
+  }
+
+  &:nth-child(2) {
+    grid-column: span 4;
+    border-right: none;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+  }
+
+  &:nth-child(3) {
+    grid-column: span 12;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 4rem;
+    border-right: none;
+
+    h3 { margin-bottom: 0; white-space: nowrap; }
+  }
+
+  &:hover {
+    background: rgba(255, 255, 255, 0.02);
+  }
+
+  h3 {
+    @include font-heading;
+    font-size: 2.5rem;
+    margin-bottom: 1.5rem;
+    line-height: 1;
+  }
+
+  p {
+    margin-bottom: 2rem;
+    line-height: 1.6;
+    opacity: 0.8;
+    font-family: serif; // Assuming there is a serif font loaded or fallback
+  }
+
+  a {
+    display: inline-block;
+    border: 1px solid rgba(255, 255, 255, 0.2);
+    padding: 0.5rem 1rem;
+    font-size: 0.8rem;
+    text-transform: uppercase;
+    letter-spacing: 0.1em;
+    transition: all 0.3s ease;
+    align-self: flex-start;
+    margin-top: auto;
+
+    &:hover {
+      background: white;
+      color: black;
+    }
+  }
+
+  @media (max-width: 768px) {
+    border-right: none;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+    padding: 2rem;
+
+    &:nth-child(1),
+    &:nth-child(2),
+    &:nth-child(3) {
+      grid-column: span 12;
+      border-right: none;
+      flex-direction: column;
+      gap: 1rem;
+    }
+    
+    &:nth-child(1) h3 { font-size: 2.5rem; }
+  }
+}
