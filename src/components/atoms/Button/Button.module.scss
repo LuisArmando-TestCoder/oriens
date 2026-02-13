@@ -1,0 +1,19 @@
+@use '../../../styles/mixins' as *;
+
+.button {
+  @include font-body;
+  background: transparent;
+  border: 1px solid var(--foreground);
+  color: var(--foreground);
+  padding: 1rem 2rem;
+  border-radius: 2rem;
+  cursor: pointer;
+  text-transform: uppercase;
+  transition: all 0.3s ease;
+  display: inline-block;
+
+  &:hover {
+    background: var(--foreground);
+    color: var(--background);
+  }
+}

@@ -1,0 +1,101 @@
+@use '@/styles/mixins' as *;
+
+.navContainer {
+  position: fixed;
+  top: 0;
+  right: 0;
+  z-index: 100;
+  padding: 40px;
+  display: flex;
+  justify-content: flex-end;
+  pointer-events: none; // Allow clicking through empty space
+}
+
+.hamWrapper {
+    pointer-events: auto; // Re-enable clicks on the button
+}
+
+.ham {
+  cursor: pointer;
+  -webkit-tap-highlight-color: transparent;
+  transition: transform 400ms;
+  -moz-user-select: none;
+  -webkit-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  
+  // Custom color for lines to match theme (white/light) instead of black if needed
+  // The user's CSS has stroke:#000. I'll keep it or adjust to variable.
+  // Given the dark theme, black might not be visible. I'll use var(--foreground).
+}
+
+.line {
+  fill: none;
+  transition: stroke-dasharray 400ms, stroke-dashoffset 400ms;
+  stroke: var(--foreground); // Adapted from #000
+  stroke-width: 5.5;
+  stroke-linecap: round;
+}
+
+.hamRotate.active {
+  transform: rotate(45deg);
+}
+
+.ham4 .top {
+  stroke-dasharray: 40 121;
+}
+.ham4 .bottom {
+  stroke-dasharray: 40 121;
+}
+.ham4.active .top {
+  stroke-dashoffset: -68px;
+}
+.ham4.active .bottom {
+  stroke-dashoffset: -68px;
+}
+
+// Menu Overlay
+.menu {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 100vh;
+  background: var(--background);
+  z-index: 90; // Below button
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  
+  // Transition
+  opacity: 0;
+  pointer-events: none;
+  transition: opacity 0.4s ease;
+
+  &.open {
+    opacity: 1;
+    pointer-events: auto;
+  }
+}
+
+.links {
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+  text-align: center;
+}
+
+.link {
+  @include font-heading;
+  font-size: 3rem;
+  color: var(--foreground);
+  text-decoration: none;
+  opacity: 0.5;
+  transition: opacity 0.3s ease;
+  cursor: pointer;
+
+  &:hover {
+    opacity: 1;
+  }
+}

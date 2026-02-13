@@ -1,0 +1,8 @@
+---
+title: "Premoniciones de una Inundación"
+date: "2025-11-21"
+excerpt: "Me acosan premoniciones de una inundación, me está arrasando. Despierto entre apneas del sueño, tosiendo, otra vez, amanecer."
+---
+
+| Me acosan premoniciones de una inundación, me está arrasando. Despierto entre apneas del sueño, tosiendo, otra vez, amanecer, y estamos secos, pero la cama está goteando, busco la fuga en el techo, pero es verano, mis medias tocan un charco, el saco amniótico se diluye por el suelo, cómo procesar este letargo, la energía necesaria para acelerarme de vuelta al movimiento dobla estas curvas geodésicas del espacio, y corremos para alcanzar transporte, y el taxista tiene puesta Soda Estéreo, para ambientar las contracciones, y las sacudidas josefinas en la arena de demolición le revuelven el estómago, pero se aferra a mi compostura, llegamos a la entrada de la Maternidad y nos espera una camilla, corro con un séquito, acompañándolos, me dan una pijama azul para que corra con ellos, nos reunimos ante una asamblea, ¿qué pasa?  | Me miran obstetras, anestesiólogos, cardiólogos, enfermeros, ¿qué pasa? Me otorgan guantes quirúrgicos aunque no soy cirujano, ¿qué pasa, enfermeros? Es un parto de alto riesgo, y la veo, y fuerzo mi camino para tomarla de la mano, y salinizo las mareas con deseos y avasallado por el oleaje de gimoteos, contemplo, contemplo al escuchar el canto de los alaridos desnudos, y entre todos los que se ponen en medio, al ver sus autómatas celulares dedos que toman los míos más lúcidos que el resto, lo que me está inundando debe ser la sintiencia de la espuma serena, me está llamando. |
+| :---- | :---- |
