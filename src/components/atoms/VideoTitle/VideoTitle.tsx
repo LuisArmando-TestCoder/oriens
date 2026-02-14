@@ -44,7 +44,7 @@ export const VideoTitle = ({
       
       if (titleWrapperRef.current) {
         // Move text horizontally based on scroll
-        titleWrapperRef.current.style.transform = `translate3d(${offset - scroll * scaleSpeed}px, 0, 0)`
+        titleWrapperRef.current.style.transform = `translate3d(calc(${offset}vh - ${scroll * scaleSpeed}px), 0, 0)`
       }
     }
 

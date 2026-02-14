@@ -44,9 +44,6 @@ export const Navigation = () => {
               <Link href="/poems" className={styles.link} onClick={closeMenu}>
                   POEMS
               </Link>
-              <Link href="/about" className={styles.link} onClick={closeMenu}>
-                  ABOUT
-              </Link>
           </div>
       </nav>
     </>
