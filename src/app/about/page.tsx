@@ -7,21 +7,21 @@ import { ModernSlider } from '@/components/organisms/ModernSlider/ModernSlider';
 import styles from './page.module.scss';
 
 export const metadata: Metadata = {
-  title: "Aba Oriens | Poética Orgánica e Ingeniería Creativa",
+  title: "Aba Oriens | Neutrino Intrascendental y Arquitecto de Anomalías",
   description:
-    "Aba Oriens es el seudónimo de un autor contemporáneo cuya obra combina fisiología, mística y crítica cultural. Perfil de Luis Murillo Baltodano, Ingeniero Creativo Senior especializado en gráficos por computadora y arte generativo.",
+    "Aba Oriens es el seudónimo de un autor neurodivergente cuya obra explora la disociación, el duelo y la crítica al sistema. Perfil de Luis Murillo Baltodano, Ingeniero Creativo Senior.",
   keywords: [
     "Aba Oriens",
     "Luis Murillo Baltodano",
-    "Poesía contemporánea",
-    "Literatura experimental",
+    "Poesía visceral",
+    "Literatura neurodivergente",
+    "Disociación",
+    "Crítica al corporativismo",
     "Ingeniería Creativa",
     "Creative Coding",
     "WebGL",
     "Three.js",
     "Arte Generativo",
-    "Costa Rica",
-    "Escritura performativa",
   ],
   openGraph: {
     title: "Aba Oriens | Poética Orgánica e Ingeniería Creativa",
@@ -70,137 +70,99 @@ export default function AboutPage() {
           </div>
 
           <p>
-            <strong>Aba Oriens</strong> es el seudónimo de un autor contemporáneo
-            en lengua española cuya obra se caracteriza por poética orgánica,
-            corporal y violenta. Su escritura combina fisiología,
-            mística y crítica cultural en composiciones fragmentarias fechadas
-            con precisión cronológica. Su producción reciente está vinculada a
-            recitales performativos en espacios culturales independientes.
+            <strong>Aba Oriens</strong> es un <em>neutrino intrascendental</em> perdido en la inmensidad. Su identidad se construye desde la <strong>neurodivergencia</strong> y una profunda introspección melancólica, utilizando la escritura como un dispositivo para procesar una realidad que a menudo le resulta ajena, abrumadora o fragmentada.
+          </p>
+          <p>
+            Su obra es el registro de una anomalía: un ser que no fue diseñado para un propósito específico, sino para existir en su libre albedrío, oscilando entre el deseo de ser consumido por la realidad y la necesidad de aferrarse a sus propias cicatrices.
           </p>
         </section>
 
         <section className={styles.section}>
-          <Heading id="estilo" tag="h2">
-            <SplitText id="estilo-text" delay={0.2}>
-              Estilo
+          <Heading id="identidad" tag="h2">
+            <SplitText id="identidad-text" delay={0.2}>
+              Identidad y Disociación
             </SplitText>
           </Heading>
-          <p>La prosa de Oriens se distingue por:</p>
+          <p>La experiencia vital de Oriens está marcada por:</p>
           <ul>
             <li>
-              <strong>Anclaje temporal exacto</strong>: fechas, horas y minutos
-              que funcionan como dispositivos de verosimilitud clínica.
+              <strong>Desconexión y Supervivencia</strong>: Estados de despersonalización y disociación utilizados como refugio ante la monotonía o el trauma.
             </li>
             <li>
-              <strong>Léxico biomédico integrado a metáfora</strong>: términos
-              como alvéolos, hipercapnia, transverso, yugular o micelio operan
-              como estructura simbólica y no como ornamentación técnica.
+              <strong>El Cuerpo como Espacio Ajeno</strong>: La observación de la anatomía propia y ajena como objetos extraños; una fragmentación donde el interior no es vacío, sino puro espacio.
             </li>
             <li>
-              <strong>Enumeración barroca</strong>: acumulaciones de marcas
-              comerciales, bebidas alcohólicas, especias, tecnologías digitales y
-              referentes culturales.
+              <strong>Sentir a través del dolor</strong>: La búsqueda de sensaciones físicas extremas para confirmar la existencia y salir de la duda de la irrealidad.
             </li>
             <li>
-              <strong>Fusión de erotismo y trauma</strong>: el cuerpo es
-              simultáneamente altar, campo de batalla y laboratorio.
-            </li>
-            <li>
-              <strong>Intertextualidad cultural</strong>: referencias a fenómenos
-              contemporáneos como blockchain, OnlyFans, plataformas de apuestas
-              en línea y cultura pop global, en tensión con imaginarios religiosos
-              y filosóficos.
+              <strong>Mentes Derruidas</strong>: Una lucha abierta contra la distimia, la atelofobia (miedo a no ser suficiente) y la depresión, utilizando el cinismo y el humor como máscaras.
             </li>
           </ul>
-          <p>
-            Su escritura oscila entre poema en prosa, monólogo dramático y
-            registro confesional.
-          </p>
         </section>
 
         <section className={styles.section}>
-          <Heading id="temas-recurrentes" tag="h2">
-            <SplitText id="temas-recurrentes-text" delay={0.2}>
-              Temas recurrentes
+          <Heading id="vision-critica" tag="h2">
+            <SplitText id="vision-critica-text" delay={0.2}>
+              Perspectiva Crítica
             </SplitText>
           </Heading>
-
           <div className={styles.topic}>
-            <h3>1. El cuerpo como territorio metafísico</h3>
+            <h3>El Almacén de Humanos</h3>
             <p>
-              El cuerpo aparece como superficie de inscripción del deseo, culpa y
-              violencia. Parto, asfixia, pelea y sacrificio son imágenes
-              centrales.
+              Una visión mordaz del sistema corporativo contemporáneo, percibido como una "vorágine devoradora" que explota la individualidad bajo una falsa resiliencia. El trabajo de oficina como un almacén de sueños postergados.
             </p>
           </div>
-
           <div className={styles.topic}>
-            <h3>2. Respiración y deuda existencial</h3>
+            <h3>Metástasis Humana</h3>
             <p>
-              La respiración se convierte en símbolo económico y ontológico:
-              vivir implica gasto, intercambio y desgaste irreversible.
-            </p>
-          </div>
-
-          <div className={styles.topic}>
-            <h3>3. Mercado y trascendencia</h3>
-            <p>
-              Lógica del consumo y monetización digital se yuxtaponen con símbolos
-              religiosos. Salvación es presentada como transacción.
-            </p>
-          </div>
-
-          <div className={styles.topic}>
-            <h3>4. Violencia resignificada</h3>
-            <p>
-              Lucha física es reconfigurada como intimidad: clinch es abrazo,
-              llave es protección, golpe es confirmación de presencia.
-            </p>
-          </div>
-
-          <div className={styles.topic}>
-            <h3>5. Hambre y asfixia</h3>
-            <p>
-              Referencia a polilla Atlas Attacus, que carece de boca en fase
-              adulta y muere tras reproducirse, funciona como alegoría de deseo
-              sin posibilidad de nutrición.
+              Reflexiones sobre la humanidad como una fuerza expansionista que consume la naturaleza sin control, abogando por una aceptación armoniosa de la muerte y los ciclos naturales frente a la resistencia inútil.
             </p>
           </div>
         </section>
 
         <section className={styles.section}>
-          <Heading id="estructura-tecnica" tag="h2">
-            <SplitText id="estructura-tecnica-text" delay={0.2}>
-              Estructura y técnica
+          <Heading id="vinculos" tag="h2">
+            <SplitText id="vinculos-text" delay={0.2}>
+              Vínculos y Duelo
             </SplitText>
           </Heading>
           <p>
-            Obra se organiza en entradas fechadas, lo que produce tensión entre
-            diario íntimo y documento clínico. Fragmentación no implica dispersión
-            temática, sino reiteración obsesiva en espiral.
+            La identidad de Aba Oriens está cimentada en sus pérdidas y en figuras pivotales:
           </p>
-          <p>
-            Uso de segunda persona es frecuente y ambiguo: puede referirse a
-            amante, entidad trascendente, lector o construcción psíquica.
-          </p>
+          <div className={styles.topic}>
+            <h3>La Herencia de la Nana</h3>
+            <p>
+              Fuente de sabiduría, amor por la literatura y conexión con la belleza de lo ordinario. Su ausencia es el vacío primordial que el autor intenta llenar revisitando recuerdos y palabras.
+            </p>
+          </div>
+          <div className={styles.topic}>
+            <h3>Nostalgia de lo Perdido</h3>
+            <p>
+              Una personalidad anclada en la memoria y el sentimiento de abandono. Una búsqueda constante de personas y momentos que "estuvieron aquí", pero ya no se encuentran.
+            </p>
+          </div>
         </section>
 
         <section className={styles.section}>
-          <Heading id="recepcion" tag="h2">
-            <SplitText id="recepcion-text" delay={0.2}>
-              Recepción y lectura crítica
+          <Heading id="estilo-literario" tag="h2">
+            <SplitText id="estilo-literario-text" delay={0.2}>
+              Vocación y Estilo
             </SplitText>
           </Heading>
           <p>
-            Crítica ha señalado en Oriens escritura de alta densidad imaginal y
-            riesgo emocional. Se le asocia con tradición que integra mística
-            corporal, existencialismo y estética postdigital.
+            El autor se define esencialmente a través del acto de escribir, una tarea que consume su energía emocional y se manifiesta en:
           </p>
-          <p>
-            Algunos análisis apuntan a tendencia a saturación enumerativa y
-            reiteración simbólica; otros destacan coherencia interna de universo
-            poético.
-          </p>
+          <ul>
+            <li>
+              <strong>Ciencia Ficción Visceral</strong>: Una mezcla de distopía con poesía cruda, utilizando metáforas espaciales (agujeros negros, nebulosas, estaciones espaciales) para explorar la soledad.
+            </li>
+            <li>
+              <strong>Verosimilitud Clínica</strong>: El uso de anclajes temporales exactos y léxico biomédico para otorgar una textura real a la disociación.
+            </li>
+            <li>
+              <strong>La Anomalía como Bandera</strong>: La aceptación de ser un ser defectuoso y caótico que no busca encajar, sino testificar su paso por la inmensidad.
+            </li>
+          </ul>
         </section>
 
         <section className={styles.section}>
@@ -250,14 +212,10 @@ export default function AboutPage() {
               <strong>Luis Murillo Baltodano</strong> (Ingeniero Creativo Senior)
             </p>
             <p>
-              Profundamente interesado en ofrecer experiencias limpias a todo tipo de
-              usuarios al crear productos, porque su calidad en todos los ejes
-              se siente profundamente personal.
+              Especialista en convertir el caos técnico en interfaces armónicas. Su enfoque en la ingeniería creativa es una extensión de su necesidad de ordenar una realidad que a menudo se siente fragmentada.
             </p>
             <p>
-              En cuanto al desarrollo de software, los campos que más me apasionan
-              son los gráficos por computadora, el arte generativo, la automatización y la optimización
-              de la vida cotidiana.
+              Apasionado por los gráficos por computadora, el arte generativo y la optimización de sistemas, busca crear herramientas que actúen como apalancamiento para la exploración humana.
             </p>
           </div>
 
