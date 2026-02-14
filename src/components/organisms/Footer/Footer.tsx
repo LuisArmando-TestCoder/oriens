@@ -22,20 +22,20 @@ export const Footer = () => {
 
         {/* Column 2: Creative Engineering / Luis Murillo */}
         <div className={styles.column}>
-          <h3 className={styles.heading}>Creative Engineering</h3>
+          <h3 className={styles.heading}>Ingeniería Creativa</h3>
           <p className={styles.text}>
-            Delivering clean experiences through code, generative art, and automation.
+            Ofreciendo experiencias limpias a través del código, el arte generativo y la automatización.
           </p>
           <ul className={styles.list}>
             <li>TypeScript / JavaScript</li>
             <li>WebGL / Creative Coding</li>
-            <li>Go / Automation</li>
+            <li>Go / Automatización</li>
           </ul>
         </div>
 
         {/* Column 3: Projects */}
         <div className={styles.column}>
-          <h3 className={styles.heading}>Projects</h3>
+          <h3 className={styles.heading}>Proyectos</h3>
           <ul className={styles.links}>
             <li>
               <a href="https://aiban.news/" target="_blank" rel="noopener noreferrer">AIBAN</a>
@@ -44,22 +44,22 @@ export const Footer = () => {
               <a href="https://aiexecutions.com/" target="_blank" rel="noopener noreferrer">Engagement AI</a>
             </li>
             <li>
-              <a href="https://testcoder.netlify.app/" target="_blank" rel="noopener noreferrer">Portfolio Legacy</a>
+              <a href="https://testcoder.netlify.app/" target="_blank" rel="noopener noreferrer">Portafolio Legacy</a>
             </li>
           </ul>
         </div>
 
         {/* Column 4: Sitemap & Connect */}
         <div className={styles.column}>
-          <h3 className={styles.heading}>Explore</h3>
+          <h3 className={styles.heading}>Explorar</h3>
           <ul className={styles.links}>
-            <li><Link href="/">Home</Link></li>
-            <li><Link href="/about">About</Link></li>
-            <li><Link href="/poems">Poems</Link></li>
-            <li><Link href="/projects">Projects</Link></li>
+            <li><Link href="/">Inicio</Link></li>
+            <li><Link href="/about">Acerca de</Link></li>
+            <li><Link href="/poems">Poemas</Link></li>
+            <li><Link href="/projects">Proyectos</Link></li>
           </ul>
           
-          <h3 className={`${styles.heading} ${styles.connect}`}>Connect</h3>
+          <h3 className={`${styles.heading} ${styles.connect}`}>Conectar</h3>
           <ul className={styles.social}>
             <li><a href="https://github.com/LuisArmando-TestCoder" target="_blank" rel="noopener noreferrer">GitHub</a></li>
             <li><a href="https://codepen.io/LuisArmando-TC" target="_blank" rel="noopener noreferrer">CodePen</a></li>
@@ -70,8 +70,8 @@ export const Footer = () => {
       </div>
 
       <div className={styles.bottom}>
-        <p>&copy; {new Date().getFullYear()} Aba Oriens. All rights reserved.</p>
-        <p className={styles.credit}>Designed & Built by Luis Murillo</p>
+        <p>&copy; {new Date().getFullYear()} Aba Oriens. Todos los derechos reservados.</p>
+        <p className={styles.credit}>Diseñado y construido por Luis Murillo</p>
       </div>
     </footer>
   )

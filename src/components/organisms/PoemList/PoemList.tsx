@@ -75,7 +75,7 @@ export const PoemList: React.FC<PoemListProps> = ({ initialPosts }) => {
       <div className={styles.searchContainer}>
         <input
           type="text"
-          placeholder="Search poems..."
+          placeholder="Buscar poemas..."
           value={searchQuery}
           onChange={handleSearch}
           className={styles.searchInput}
@@ -98,7 +98,7 @@ export const PoemList: React.FC<PoemListProps> = ({ initialPosts }) => {
             </div>
           ))
         ) : (
-          <div className={styles.noResults}>No poems found.</div>
+          <div className={styles.noResults}>No se encontraron poemas.</div>
         )}
       </div>
 
@@ -109,11 +109,11 @@ export const PoemList: React.FC<PoemListProps> = ({ initialPosts }) => {
             disabled={currentPage === 1}
             className={styles.pageButton}
           >
-            Previous
+            Anterior
           </button>
           
           <span className={styles.pageInfo}>
-            Page {currentPage} of {totalPages}
+            Página {currentPage} de {totalPages}
           </span>
 
           <button
@@ -121,7 +121,7 @@ export const PoemList: React.FC<PoemListProps> = ({ initialPosts }) => {
             disabled={currentPage === totalPages}
             className={styles.pageButton}
           >
-            Next
+            Siguiente
           </button>
         </div>
       )}

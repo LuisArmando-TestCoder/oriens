@@ -231,29 +231,29 @@ export const About = () => {
 
         <div className={styles.section} id="developer-profile">
             <Heading id="creative-engineer" tag="h2">
-                <SplitText id="creative-engineer-text" delay={0.2}>Creative Engineer</SplitText>
+                <SplitText id="creative-engineer-text" delay={0.2}>Ingeniero Creativo</SplitText>
             </Heading>
             <div className={styles.intro}>
-                <p><strong>Luis Murillo Baltodano</strong> (Senior Creative Engineer)</p>
-                <p>Deeply interested in delivering clean experiences to all types of users when creating the product, because its quality in all axis feels deeply personal.</p>
-                <p>Regarding software development, the fields I am most passionate about are computer graphics, generative art, automation, and optimization of our day-to-day life.</p>
+                <p><strong>Luis Murillo Baltodano</strong> (Ingeniero Creativo Senior)</p>
+                <p>Profundamente interesado en ofrecer experiencias limpias a todo tipo de usuarios al crear el producto, porque su calidad en todos los ejes se siente profundamente personal.</p>
+                <p>En cuanto al desarrollo de software, los campos que más me apasionan son los gráficos por computadora, el arte generativo, la automatización y la optimización de nuestra vida cotidiana.</p>
             </div>
 
             <div className={styles.topic}>
-                <h3>Technical Stack</h3>
-                <p><strong>JavaScript/TypeScript</strong>: Used every single day (server side and front-end), with different frameworks depending on the project (React, Next.js, Vue.js) or even bare JavaScript.</p>
-                <p><strong>Go (Golang)</strong>: My best friend when it comes to web services and/or automation tools.</p>
-                <p><strong>Creative Coding</strong>: Three.js, A-Frame, P5.js, and custom libraries are the tools picked when working with 2D and 3D graphics.</p>
+                <h3>Stack Técnico</h3>
+                <p><strong>JavaScript/TypeScript</strong>: Utilizado todos los días (servidor y front-end), con diferentes frameworks dependiendo del proyecto (React, Next.js, Vue.js) o incluso JavaScript puro.</p>
+                <p><strong>Go (Golang)</strong>: Mi mejor amigo cuando se trata de servicios web y/o herramientas de automatización.</p>
+                <p><strong>Creative Coding</strong>: Three.js, A-Frame, P5.js y librerías personalizadas son las herramientas elegidas al trabajar con gráficos 2D y 3D.</p>
             </div>
 
             <div className={styles.topic}>
-                <h3>Philosophy</h3>
-                <p>I am open to use any tool (library, framework, methodology) to get the best product. We turn job-trapped founders into owners. Most people with great ideas get stuck in the execution. We build the leverage so you can focus on the exploration.</p>
+                <h3>Filosofía</h3>
+                <p>Estoy abierto a usar cualquier herramienta (librería, framework, metodología) para obtener el mejor producto. Convertimos a fundadores atrapados en su trabajo en dueños. La mayoría de las personas con grandes ideas se quedan estancadas en la ejecución. Nosotros construimos el apalancamiento para que tú puedas concentrarte en la exploración.</p>
             </div>
 
             <div className={styles.topic}>
-                <h3>Contact</h3>
-                <p>Where to find me:</p>
+                <h3>Contacto</h3>
+                <p>Dónde encontrarme:</p>
                 <ul>
                     <li><a href="https://github.com/LuisArmando-TestCoder" target="_blank" rel="noopener noreferrer">GitHub</a></li>
                     <li><a href="https://codepen.io/LuisArmando-TC" target="_blank" rel="noopener noreferrer">CodePen</a></li>

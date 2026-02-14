@@ -7,24 +7,24 @@ import { ModernSlider } from '@/components/organisms/ModernSlider/ModernSlider';
 import styles from './page.module.scss';
 
 export const metadata: Metadata = {
-  title: "Aba Oriens | Poética Orgánica & Creative Engineering",
+  title: "Aba Oriens | Poética Orgánica e Ingeniería Creativa",
   description:
-    "Aba Oriens es el seudónimo de un autor contemporáneo cuya obra combina fisiología, mística y crítica cultural. Perfil de Luis Murillo Baltodano, Senior Creative Engineer especializado en gráficos por computadora y arte generativo.",
+    "Aba Oriens es el seudónimo de un autor contemporáneo cuya obra combina fisiología, mística y crítica cultural. Perfil de Luis Murillo Baltodano, Ingeniero Creativo Senior especializado en gráficos por computadora y arte generativo.",
   keywords: [
     "Aba Oriens",
     "Luis Murillo Baltodano",
     "Poesía contemporánea",
     "Literatura experimental",
-    "Creative Engineer",
+    "Ingeniería Creativa",
     "Creative Coding",
     "WebGL",
     "Three.js",
-    "Generative Art",
+    "Arte Generativo",
     "Costa Rica",
     "Escritura performativa",
   ],
   openGraph: {
-    title: "Aba Oriens | Poética Orgánica & Creative Engineering",
+    title: "Aba Oriens | Poética Orgánica e Ingeniería Creativa",
     description:
       "Explora la obra de Aba Oriens y el portafolio técnico de Luis Murillo Baltodano. Fusión de literatura experimental y tecnología creativa.",
     url: "https://oriens.aiban.news/about",
@@ -42,7 +42,7 @@ export const metadata: Metadata = {
   },
   twitter: {
     card: "summary_large_image",
-    title: "Aba Oriens | Poética Orgánica & Creative Engineering",
+    title: "Aba Oriens | Poética Orgánica e Ingeniería Creativa",
     description:
       "Explora la obra de Aba Oriens y el portafolio técnico de Luis Murillo Baltodano.",
     images: ["/1.jpeg"],
@@ -61,6 +61,10 @@ export default function AboutPage() {
                 { src: "/1.jpeg", alt: "Aba Oriens visual 1" },
                 { src: "/2.jpeg", alt: "Aba Oriens visual 2" },
                 { src: "/3.jpeg", alt: "Aba Oriens visual 3" },
+                { src: "/4.jpg", alt: "Aba Oriens visual 4" },
+                { src: "/5.jpg", alt: "Aba Oriens visual 5" },
+                { src: "/6.jpg", alt: "Aba Oriens visual 6" },
+                { src: "/7.jpg", alt: "Aba Oriens visual 7" },
               ]}
             />
           </div>
@@ -68,7 +72,7 @@ export default function AboutPage() {
           <p>
             <strong>Aba Oriens</strong> es el seudónimo de un autor contemporáneo
             en lengua española cuya obra se caracteriza por poética orgánica,
-            corporal y ontológicamente violenta. Su escritura combina fisiología,
+            corporal y violenta. Su escritura combina fisiología,
             mística y crítica cultural en composiciones fragmentarias fechadas
             con precisión cronológica. Su producción reciente está vinculada a
             recitales performativos en espacios culturales independientes.
@@ -237,56 +241,56 @@ export default function AboutPage() {
         <section className={styles.section} id="developer-profile">
           <Heading id="creative-engineer" tag="h2">
             <SplitText id="creative-engineer-text" delay={0.2}>
-              Creative Engineer
+              Ingeniero Creativo
             </SplitText>
           </Heading>
 
           <div className={styles.intro}>
             <p>
-              <strong>Luis Murillo Baltodano</strong> (Senior Creative Engineer)
+              <strong>Luis Murillo Baltodano</strong> (Ingeniero Creativo Senior)
             </p>
             <p>
-              Deeply interested in delivering clean experiences to all types of
-              users when creating product, because its quality across all axes
-              feels deeply personal.
+              Profundamente interesado en ofrecer experiencias limpias a todo tipo de
+              usuarios al crear productos, porque su calidad en todos los ejes
+              se siente profundamente personal.
             </p>
             <p>
-              Regarding software development, fields I am most passionate about
-              are computer graphics, generative art, automation, and optimization
-              of day-to-day life.
+              En cuanto al desarrollo de software, los campos que más me apasionan
+              son los gráficos por computadora, el arte generativo, la automatización y la optimización
+              de la vida cotidiana.
             </p>
           </div>
 
           <div className={styles.topic}>
-            <h3>Technical Stack</h3>
+            <h3>Stack Técnico</h3>
             <p>
-              <strong>JavaScript/TypeScript</strong>: Used every single day
-              server side and front-end, with different frameworks depending on
-              project such as React, Next.js, Vue.js or bare JavaScript.
+              <strong>JavaScript/TypeScript</strong>: Utilizado todos los días tanto en el
+              servidor como en el front-end, con diferentes frameworks dependiendo del
+              proyecto como React, Next.js, Vue.js o JavaScript puro.
             </p>
             <p>
-              <strong>Go (Golang)</strong>: Primary tool for web services and
-              automation tools.
+              <strong>Go (Golang)</strong>: Herramienta principal para servicios web y
+              herramientas de automatización.
             </p>
             <p>
-              <strong>Creative Coding</strong>: Three.js, A-Frame, P5.js and
-              custom libraries when working with 2D and 3D graphics.
-            </p>
-          </div>
-
-          <div className={styles.topic}>
-            <h3>Philosophy</h3>
-            <p>
-              Open to use any tool, library, framework or methodology to build
-              best product. We turn job-trapped founders into owners. Most people
-              with great ideas get stuck in execution. We build leverage so you
-              can focus on exploration.
+              <strong>Creative Coding</strong>: Three.js, A-Frame, P5.js y
+              librerías personalizadas al trabajar con gráficos 2D y 3D.
             </p>
           </div>
 
           <div className={styles.topic}>
-            <h3>Contact</h3>
-            <p>Where to find me:</p>
+            <h3>Filosofía</h3>
+            <p>
+              Abierto a usar cualquier herramienta, librería, framework o metodología para construir
+              el mejor producto. Convertimos a fundadores atrapados en su trabajo en dueños. La mayoría de las personas
+              con grandes ideas se quedan estancadas en la ejecución. Nosotros construimos el apalancamiento para que tú
+              puedas concentrarte en la exploración.
+            </p>
+          </div>
+
+          <div className={styles.topic}>
+            <h3>Contacto</h3>
+            <p>Dónde encontrarme:</p>
             <ul>
               <li>
                 <a

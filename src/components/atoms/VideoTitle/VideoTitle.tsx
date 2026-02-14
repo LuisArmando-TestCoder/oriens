@@ -106,6 +106,20 @@ export const VideoTitle = ({
                 {text}
             </span>
         </h1>
+        <div className={styles.scrollIndicator}>
+          <svg 
+            width="24" 
+            height="24" 
+            viewBox="0 0 24 24" 
+            fill="none" 
+            stroke="black" 
+            strokeWidth="2" 
+            strokeLinecap="round" 
+            strokeLinejoin="round"
+          >
+            <path d="M12 5v14M19 12l-7 7-7-7"/>
+          </svg>
+        </div>
       </div>
     </div>
   )

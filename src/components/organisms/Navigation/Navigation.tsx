@@ -36,13 +36,13 @@ export const Navigation = () => {
       <nav className={clsx(styles.menu, isActive && styles.open)}>
           <div className={styles.links}>
               <Link href="/" className={styles.link} onClick={closeMenu}>
-                  HOME
+                  INICIO
               </Link>
               <Link href="/projects" className={styles.link} onClick={closeMenu}>
-                  PROJECTS
+                  PROYECTOS
               </Link>
               <Link href="/poems" className={styles.link} onClick={closeMenu}>
-                  POEMS
+                  POEMAS
               </Link>
           </div>
       </nav>

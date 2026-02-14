@@ -21,11 +21,11 @@ const montserrat = Montserrat({
 });
 
 export const metadata: Metadata = {
-  title: "Aba Oriens | Poética Orgánica & Creative Engineering",
-  description: "Aba Oriens es un autor contemporáneo cuya obra combina fisiología, mística y crítica cultural. Perfil de Luis Murillo Baltodano, Senior Creative Engineer especializado en gráficos por computadora y arte generativo.",
-  keywords: ["Aba Oriens", "Luis Murillo Baltodano", "Poesía contemporánea", "Literatura experimental", "Creative Engineer", "Creative Coding", "WebGL", "Three.js", "Generative Art", "Costa Rica", "Escritura performativa"],
+  title: "Aba Oriens | Poética Orgánica e Ingeniería Creativa",
+  description: "Aba Oriens es un autor contemporáneo cuya obra combina fisiología, mística y crítica cultural. Perfil de Luis Murillo Baltodano, Ingeniero Creativo Senior especializado en gráficos por computadora y arte generativo.",
+  keywords: ["Aba Oriens", "Luis Murillo Baltodano", "Poesía contemporánea", "Literatura experimental", "Ingeniería Creativa", "Creative Coding", "WebGL", "Three.js", "Arte Generativo", "Costa Rica", "Escritura performativa"],
   openGraph: {
-    title: "Aba Oriens | Poética Orgánica & Creative Engineering",
+    title: "Aba Oriens | Poética Orgánica e Ingeniería Creativa",
     description: "Explora la obra de Aba Oriens y el portafolio técnico de Luis Murillo Baltodano. Fusión de literatura experimental y tecnología creativa.",
     url: "https://oriens.aiban.news",
     siteName: "Aba Oriens",
@@ -42,7 +42,7 @@ export const metadata: Metadata = {
   },
   twitter: {
     card: "summary_large_image",
-    title: "Aba Oriens | Poética Orgánica & Creative Engineering",
+    title: "Aba Oriens | Poética Orgánica e Ingeniería Creativa",
     description: "Explora la obra de Aba Oriens y el portafolio técnico de Luis Murillo Baltodano.",
     images: ["/1.jpeg"],
   },
@@ -57,7 +57,7 @@ export default function RootLayout({
   children: React.ReactNode;
 }>) {
   return (
-    <html lang="en">
+    <html lang="es">
       <body
         className={`${geistSans.variable} ${geistMono.variable} ${montserrat.variable}`}
       >

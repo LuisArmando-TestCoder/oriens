@@ -24,11 +24,11 @@ export const Hero = () => {
       <div className={styles.content}>
         <p id="hero-desc" className={styles.text}>
             <SplitText id="hero-desc-text" delay={0.5}>
-            Poética orgánica, corporal y ontológicamente violenta
+            Poética orgánica, corporal y violenta
             </SplitText>
         </p>
         <Magnetic>
-            <Button id="hero-cta" onClick={handleExplore}>EXPLORE</Button>
+            <Button id="hero-cta" onClick={handleExplore}>EXPLORAR</Button>
         </Magnetic>
       </div>
     </section>

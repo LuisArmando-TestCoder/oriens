@@ -15,7 +15,7 @@ export default function PoemsPage() {
 
   return (
     <main className={styles.poems}>
-      <VideoTitle text="POEMS" pushToRead />
+      <VideoTitle text="POEMAS" pushToRead />
       <PoemList initialPosts={posts} />
     </main>
   )

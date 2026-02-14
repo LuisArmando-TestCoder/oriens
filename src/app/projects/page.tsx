@@ -12,7 +12,7 @@ export const metadata: Metadata = {
 export default function ProjectsPage() {
   return (
     <main className={styles.projects}>
-      <VideoTitle text="PROJECTS" pushToRead />
+      <VideoTitle text="PROYECTOS" pushToRead />
       
       <div className={styles.grid}>
         <div className={styles.card}>
@@ -21,8 +21,8 @@ export default function ProjectsPage() {
               AIBAN
             </SplitText>
           </h3>
-          <p>We turn job-trapped founders into owners. Most people with great ideas get stuck in the execution. We build the leverage so you can focus on the exploration.</p>
-          <a href="https://aiban.news/" target="_blank" rel="noopener noreferrer">Visit Site →</a>
+          <p>Convertimos a fundadores atrapados en su trabajo en dueños. La mayoría de las personas con grandes ideas se quedan estancadas en la ejecución. Nosotros construimos el apalancamiento para que tú puedas concentrarte en la exploración.</p>
+          <a href="https://aiban.news/" target="_blank" rel="noopener noreferrer">Visitar Sitio →</a>
         </div>
         
         <div className={styles.card}>
@@ -31,18 +31,18 @@ export default function ProjectsPage() {
               Engagement AI
             </SplitText>
           </h3>
-          <p>We help business owners grow their companies in a way that sets them free from running the company day‑to‑day.</p>
-          <a href="https://aiexecutions.com/" target="_blank" rel="noopener noreferrer">Visit Site →</a>
+          <p>Ayudamos a los dueños de negocios a hacer crecer sus empresas de una manera que los libere de la gestión diaria.</p>
+          <a href="https://aiexecutions.com/" target="_blank" rel="noopener noreferrer">Visitar Sitio →</a>
         </div>
 
         <div className={styles.card}>
           <h3>
             <SplitText id="project-portfolio" delay={0.2}>
-              Portfolio
+              Portafolio
             </SplitText>
           </h3>
-          <p>Deeply interested in delivering clean experiences to all types of users when creating the product, because its quality in all axis feels deeply personal.</p>
-          <a href="https://testcoder.netlify.app/" target="_blank" rel="noopener noreferrer">Visit Site →</a>
+          <p>Profundamente interesado en ofrecer experiencias limpias a todo tipo de usuarios al crear el producto, porque su calidad en todos los ejes se siente profundamente personal.</p>
+          <a href="https://testcoder.netlify.app/" target="_blank" rel="noopener noreferrer">Visitar Sitio →</a>
         </div>
       </div>
     </main>

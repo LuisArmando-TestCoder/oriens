@@ -64,3 +64,34 @@
     z-index: 1;
     position: relative;
 }
+
+.scrollIndicator {
+    position: absolute;
+    bottom: 2rem;
+    left: 50%;
+    transform: translateX(-50%);
+    z-index: 2;
+    animation: pulse 2s infinite;
+    pointer-events: none;
+    
+    svg {
+        width: 3rem;
+        height: 3rem;
+        stroke: black; // Ensure it's visible on the white background
+    }
+}
+
+@keyframes pulse {
+    0% {
+        transform: translate(-50%, 0);
+        opacity: 1;
+    }
+    50% {
+        transform: translate(-50%, 10px);
+        opacity: 0.5;
+    }
+    100% {
+        transform: translate(-50%, 0);
+        opacity: 1;
+    }
+}
