@@ -1,7 +1,13 @@
 import React from 'react'
+import { Metadata } from 'next'
 import { VideoTitle } from '@/components/atoms/VideoTitle/VideoTitle'
 import { SplitText } from '@/components/molecules/SplitText/SplitText'
 import styles from './page.module.scss'
+
+export const metadata: Metadata = {
+  title: "Proyectos | Aba Oriens",
+  description: "Portafolio de proyectos de ingeniería creativa y emprendimientos tecnológicos: AIBAN, Engagement AI y más.",
+};
 
 export default function ProjectsPage() {
   return (

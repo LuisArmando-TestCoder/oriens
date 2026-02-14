@@ -1,9 +1,36 @@
+import { Metadata, ResolvingMetadata } from 'next'
 import { getPostBySlug, getAllPosts } from '@/utils/posts'
 import markdownToHtml from '@/utils/markdownToHtml'
 import { notFound } from 'next/navigation'
 import { SmoothScroll } from '@/components/organisms/SmoothScroll/SmoothScroll'
 import { Scene } from '@/components/_canvas/Scene'
 import Link from 'next/link'
+
+export async function generateMetadata(
+  { params }: { params: Promise<{ slug: string }> },
+  parent: ResolvingMetadata
+): Promise<Metadata> {
+  const { slug } = await params
+  const post = getPostBySlug(slug)
+
+  if (!post) {
+    return {
+      title: 'Post Not Found | Aba Oriens',
+    }
+  }
+
+  return {
+    title: `${post.title} | Aba Oriens`,
+    description: post.excerpt || `Entrada del ${post.date}`,
+    openGraph: {
+      title: post.title,
+      description: post.excerpt || `Entrada del ${post.date}`,
+      type: 'article',
+      publishedTime: post.date,
+      authors: ['Aba Oriens'],
+    },
+  }
+}
 
 export async function generateStaticParams() {
   const posts = getAllPosts()
