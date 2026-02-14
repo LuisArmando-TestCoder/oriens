@@ -2,7 +2,6 @@ import { Metadata, ResolvingMetadata } from 'next'
 import { getPostBySlug, getAllPosts } from '@/utils/posts'
 import markdownToHtml from '@/utils/markdownToHtml'
 import { notFound } from 'next/navigation'
-import { SmoothScroll } from '@/components/organisms/SmoothScroll/SmoothScroll'
 import { Scene } from '@/components/_canvas/Scene'
 import Link from 'next/link'
 
@@ -50,7 +49,7 @@ export default async function Post({ params }: { params: Promise<{ slug: string 
   const content = await markdownToHtml(post.content || '')
 
   return (
-    <SmoothScroll>
+    <>
       <Scene />
       <main id="post-content" style={{ minHeight: '100vh', padding: '10vh 20vw', position: 'relative', zIndex: 1, background: 'rgba(0,0,0,0.8)' }}>
         <Link href="/" style={{ fontSize: '1.2rem', marginBottom: '2rem', display: 'inline-block', opacity: 0.6 }}>
@@ -63,6 +62,6 @@ export default async function Post({ params }: { params: Promise<{ slug: string 
           style={{ fontSize: '1.2rem', lineHeight: '1.8', opacity: 0.9 }}
         />
       </main>
-    </SmoothScroll>
+    </>
   )
 }
