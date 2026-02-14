@@ -200,17 +200,6 @@ export const About = () => {
              </ul>
              <p>La prosa oscila entre el barroquismo acumulativo y el verso minimalista.</p>
 
-             <Heading id="recepcion-critica-hipotetica" tag="h2">
-                <SplitText id="recepcion-critica-hipotetica-text" delay={0.2}>Recepcion crítica (hipotética)</SplitText>
-             </Heading>
-             <p>La obra ha sido descrita como:</p>
-             <ul>
-                <li>“Autoficción cósmica con pulsión mística”.</li>
-                <li>“Manual de disociación postdigital”.</li>
-                <li>“Tratado erótico-existencial con estética de laboratorio”.</li>
-             </ul>
-             <p>Algunos análisis señalan tendencia a la sobreabundancia imaginal y repetición temática; otros destacan su coherencia simbólica y la construcción de una mitología propia reconocible.</p>
-
              <Heading id="rasgos-distintivos-2" tag="h2">
                 <SplitText id="rasgos-distintivos-2-text" delay={0.2}>Rasgos distintivos</SplitText>
              </Heading>
