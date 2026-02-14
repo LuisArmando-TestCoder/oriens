@@ -13,15 +13,13 @@ export const About = () => {
         
         <div className={styles.intro}>
             <div className={styles.sliderContainer}>
-                 <ModernSlider images={[
-                    { src: "/1.jpeg", alt: "Aba Oriens visual 1" },
-                    { src: "/2.jpeg", alt: "Aba Oriens visual 2" },
-                    { src: "/3.jpeg", alt: "Aba Oriens visual 3" },
-                    { src: "/4.jpg", alt: "Aba Oriens visual 4" },
-                    { src: "/5.jpg", alt: "Aba Oriens visual 5" },
-                    { src: "/6.jpg", alt: "Aba Oriens visual 6" },
-                    { src: "/7.jpg", alt: "Aba Oriens visual 7" }
-                 ]} />
+                <ModernSlider 
+                    images={
+                        new Array(18).fill(0).map((_, i) => ({
+                            src: `/${i + 1}.jpg`, alt: `Foto ${i + 1}`
+                        }))
+                    }
+                 />
             </div>
 
             <p><strong>Aba Oriens</strong> es el seudónimo de un autor contemporáneo en lengua española cuya obra se caracteriza por una poética orgánica, corporal y ontológicamente violenta. Su escritura combina fisiología, mística y crítica cultural en composiciones fragmentarias fechadas con precisión cronológica. Su producción reciente está vinculada a recitales performativos en espacios culturales independientes.</p>
