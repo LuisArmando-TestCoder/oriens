@@ -2,7 +2,7 @@
 import React, { useRef, useEffect, useState } from 'react'
 import Image from 'next/image'
 import gsap from 'gsap'
-import { Draggable } from 'gsap/Draggable'
+import { Draggable } from 'gsap/dist/Draggable'
 import styles from './ModernSlider.module.scss'
 
 if (typeof window !== 'undefined') {
@@ -39,22 +39,22 @@ export const ModernSlider = ({ images }: ModernSliderProps) => {
     const snap = gsap.utils.snap(itemWidth + gap)
     
     // Draggable instance
-    const draggable = Draggable.create(document.createElement('div'), {
+    const draggableProxy = document.createElement('div')
+    const draggable = Draggable.create(draggableProxy, {
       trigger: container,
       type: 'x',
       inertia: true,
-      onDrag: update,
-      onThrowUpdate: update,
+      onDrag: function(this: any) { update(this.x) },
+      onThrowUpdate: function(this: any) { update(this.x) },
       snap: {
         x: (value) => snap(value)
       }
     })[0]
 
-    function update() {
+    function update(x: number) {
       // Logic for infinite slider or bounded slider
       // For simplicity, let's make it a bounded modern slider with parallax
       
-      const x = this.x
       const p = -x / (itemWidth + gap)
       setActiveIndex(Math.round(p))
       
