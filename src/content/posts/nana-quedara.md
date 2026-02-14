@@ -1,6 +1,6 @@
 ---
 title: "Nana Quedará"
-date: "2024-11-02"
+date: "2024-06-20"
 excerpt: "Si todas las estrellas dijeran: “¿De qué sirve mi existencia? ¿De qué vale que yo arda? ¡Soy una de tantas! No soy la más bella. Si me voy, nadie se dará cuenta”. Y se apagaran en consecuencia de esas palabras, el cielo se quedaría vacío."
 ---
 
