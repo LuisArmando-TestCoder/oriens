@@ -16,7 +16,11 @@ export const About = () => {
                  <ModernSlider images={[
                     { src: "/1.jpeg", alt: "Aba Oriens visual 1" },
                     { src: "/2.jpeg", alt: "Aba Oriens visual 2" },
-                    { src: "/3.jpeg", alt: "Aba Oriens visual 3" }
+                    { src: "/3.jpeg", alt: "Aba Oriens visual 3" },
+                    { src: "/4.jpg", alt: "Aba Oriens visual 4" },
+                    { src: "/5.jpg", alt: "Aba Oriens visual 5" },
+                    { src: "/6.jpg", alt: "Aba Oriens visual 6" },
+                    { src: "/7.jpg", alt: "Aba Oriens visual 7" }
                  ]} />
             </div>
 
