@@ -112,3 +112,136 @@ no estás buscando un hogar en este Todo
 pues, 
 eres el Todo  mismo.
 
+Me levanté. Bajamos por un ascensor. La gravedad se difuminaba más según más nos acercamos a nuestro destino. Lo que antes era suelo y techo; metamorfosis; paredes omnidireccionales.
+
+—Hemos llegado a la base pivotal, ¿cómo debería de referirle?
+
+—¿Me estás preguntando el nombre?
+
+—Así es.
+
+Y después de meditarlo un poco, dije:
+
+—Lia.
+
+Cuando el Crío Errante estaba anunciando mi llegada, este fue interrumpido por el sonido de la despresurización, empujando mi cabello hacia atrás, dejando al descubierto mi mirada ante aquella figura que se levantaba entre la oscuridad.
+
+—¿Diminutivo de cuál nombre? ¿Anomalía?
+
+—De Amalia—repuse.
+
+Este notó que lo estaba examinando. Iris dorados y reflectantes; contextura delgada pero fornida; pies descalzos, y esperó a mi respuesta, con su postura suspendida en el aire, despreocupada, acostumbrada a volar.
+
+—¿Vamos entrando? —Y se apoyó en los perímetros de las compuertas.
+
+—¿Por qué me llaman anomalía? —Tajé su intención de partir.
+
+	—¿De qué mundo vienes? 
+
+—Es la segunda vez que escucho que me llaman así, pero que yo sepa soy una persona común y sin gracia, entonces, ¿qué quieren decir con eso? ¿Que soy diferente? ¿Con respecto a qué?
+
+—Con respecto a nosotros. Analizamos tu código genético y parece un laberinto accidentado, como si vinieras de hace medio milenio, no parece que estés diseñada para un propósito, en el gran esquema de las cosas, eres defectuosa y caótica, no eres un producto de la eugenesia; tus gustos y tendencias son inciertas, así que en toda regla, eres una anomalía, y así es como el Gran Gestor llama a los de tu tipo.
+
+—¿El Gran Gestor?
+
+—En serio, ¿de dónde eres? ¿De Ceres, de Eris, o tal vez —e ingrávido, se lanzó suavemente hacia las tinieblas—… del Inframundo? —Su burlesca risa reverberaba en las paredes— Es cuestión de tiempo.
+
+	—¿Cuestión de tiempo para qué? —vacilé ante la fosa.
+
+	—Para que despiertes.
+
+Justo antes de avanzar, me paralicé frente a la entrada, ya que de mi lado, habían bordes bien definidos, la estancia estaba iluminada y daba una impresión de seguridad, pero del otro, a unos centímetros de mi nariz, había un masivo foso sin fondo envuelto en un miasma plomoso. Imaginé que podía cortarlo con la oscilación de mis manos. Sus sombras devoraban la incandescencia como los haces de los claros son devorados por el agua del océano, como los rayos de sol son devorados por las profundidades. Yo, que estaba del otro lado, del lado seguro y fiable, donde no pasaba nada, asomé la cabeza, y el pozo me devolvió la mirada:
+
+—Orgullosa, llena de temor, argamasa que tiende a fragmentarse, ¿estás lista para dejarte caer hacia todo lo desconocido?
+
+"No sé lo que me espera si lo hago, pero no quiero vivir sabiendo que no me enfrenté a la incertidumbre", por lo que, erizándose mi piel, abandoné mis pantuflas azules y me lancé al fondo del abismo.
+
+Aquel sitio era un espacio nebuloso en el que uno levitaba hasta chocar, ocasionalmente, con los acolchados e invisibles bordes del contenedor, en el centro había una consola y un esférico mapa tridimensional del Sistema Solar, mostraba algunos puntos suspendidos que marcaban con una línea su trayectoria recorrida, y con otra –punteada– su trayectoria estimada, al menos, eso es lo que parecía. Eso y una línea que marcaba la distancia entre dos círculos.
+
+—Esta es nuestra estación, el objeto pulsante —Aiden intercedió mis observaciones—, y se está acercando a estas coordenadas relativas al astro, no es un objeto móvil. No tiene trayectoria.
+
+—¡Por cierto! Lia, ¿de dónde dijiste que eras?
+
+—De la Tierra —"aunque no lo había dicho antes"—, ¿y ustedes…?
+
+—Venimos de Europa —declaró el primero.
+
+—Ah, y, ¿de qué país? —Fui inocente.
+
+Ambos estallaron en carcajadas.
+
+—Venimos de una Luna con ese nombre —repuso el segundo.
+
+El primero comenzó a escribir en el aire, como si tuviera un smartphone:
+
+—Tengo que contarle a los demás…
+
+Una parte de mí quería que la profundidad de algún foso me tragara, no obstante, en lo que abrazaba mis rodillas, suspendida entre las partículas de aire, pivotando aleatoriamente hacia ningún lugar, aquel sitio que estaba confinado entre una espesa lobreguez, los seres que me hacían compañía lucían a gusto entre las sombras, levitando y riendo con naturalidad.
+
+—No entiendo cómo lo hacen —comenté de la nada.
+
+El primero, enmudeciendo, le mantuvo la mirada al segundo, que me miró fijamente: 
+
+—¿Te refieres a convivir?
+
+—Me refiero a que —repliqué— ustedes seguramente han pasado bastante tiempo bajo estas condiciones, sin poder escapar.
+
+—¿De qué condiciones hablas? —Ironizó el primero.
+
+—De estas —expuse los rededores, estirando los brazos hacia la proximidad de de las tinieblas—; hablo de la soledad, de la uniformidad, de perder la conciencia entre acciones repetitivas. Estoy segura de que se despiertan todos los días y ven lo mismo. ¿Qué los mantiene resistiendo? ¿Qué hacen para no volverse locos?
+
+El primero, inclinando la cabeza, entre sus tenues líneas de expresión, repuso:
+
+—Amalia, esto es lo que nos mantiene cuerdos.
+
+El segundo tomó a su compañero de los hombros, y despreocupado, lo lanzó ingrávido fuera del campo visible:
+
+—Ya he visto esta historia —sus palmas presionando mis mejillas—… Eres como nosotros, un neutrino intrascendencendental. Desorientada hasta el final en su libre albedrío paralizante; perdida en medio de la inmensidad. 
+
+El primero, resurgiendo, se antepuso a su compañero, empujándolo con delicadeza hacia la consola de mandos:
+
+—Hogar es aquel lugar del que no quieres huir.
+
+“S.P.S”, con letras jade pequeñitas, se proyectó en un parpadeo:
+
+—Acaban de darnos el visto bueno para abordar.
+
+El primero, inhaló profundo:
+
+—Iré descongelando a todos…
+
+Y ante nosotros, una compuerta de clamshell en cuatro partes, abrió el Universo. La voz de Crío se acercó levitando hasta quedar en medio:
+
+—A continuación, el anclaje de nuestra estación A-80742, se estará llevando a cabo, bienvenidos a: “Solar Punk Station”. La descripción de la obtención de esta mega estación, según la base de datos de la S.P.S sostiene que fue robada del prototipo de megalópolis de la G.G.A. La S.P.S se convirtió en el grupo más buscado del Sistema Solar. En un evento de autoproclamación en contra del estado de la Federación. Una nave enardecida acotó un mensaje en el anexo, ¿lo desean escuchar?
+
+—Adelanté —musitó el comandante presente.
+
+En los altavoces:
+
+—Hablamos tanto de todo lo que no tenemos. Sueño con un mundo donde nunca más tengamos que hablar de realidades idílicas.
+
+Crío:
+
+—Procederemos a estacionarnos en una de las zonas de ensamblaje de la periferia de la polis.
+
+Brazos hidráulicos se desdoblaron ante nosotros. La forma esférica de aquella estación se forraba de naves aparcadas en su bordes interiores, con sus gruesas ventanas viendo hacia el centro –en donde nos situamos–, noté figuras curiosas observándonos; los límites entre cada estación estaban forrados de luces naranja, que delimitaban los cuadrantes de aparcamiento.
+
+—Según la base de datos de la S.P.S —recitó el Crío Errante—, el color naranja intenso que pueden observar, es una simulación de atardecer en la ciudadela, luego se abrirá paso a una simulación de cielo estrellado, y volverá a amanecer de forma artificial, encendiendo unas luminarias solares que despiden pequeñas cantidades de radiación ultravioleta. Aunque los entes eugénicos más recientes pueden sobrevivir por largos periodos sin ser afectados por la ausencia de vitamina D, esta estación está equipada para emular el ciclo circadiano y albergar a una mayor diversidad genética de transhumanos y primitivistas, sin embargo tiene muchos errores de diseño, uno de los cuales tiene que ver con el hecho de que las naves aparcadas bloquean la radiación, así que todos tienen que seguir tomando suplementos para la vitamina D. 
+
+—Este bien podría ser el núcleo de una luna artificial —comentó el primero, aproximándose hasta nosotros.
+
+—¿Qué dice ahí? —El segundo apuntó a unas naves decoradas con frases grafiteadas.
+
+El primero entrecerró los ojos, leyendo:
+
+—“Reclamamos tus dominios; Roi fainéant”.
+
+—Ahí hay otro —señalé.
+
+—“Nos escondemos entre la simbiosis, somos del ein sof, la metástasis inversa”.
+
+—Miren esos nombres —exclamó Aiden.
+
+Aulus leyó los glifos esparcidos circularmente alrededor de una frase:
+
+—“सूर्य Surya, Ήλιος Helios, Ἀπόλλων Apolo, Tonatiuh, Inti, Sunna سنة, 天照 Amaterasu , šamaš Shamash, Lugh, Belenus, Freyr, Ra” —y en el centro—, “el control no es pertenencia”.
