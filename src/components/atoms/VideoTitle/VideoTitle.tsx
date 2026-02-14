@@ -16,7 +16,7 @@ interface VideoTitleProps {
 
 export const VideoTitle = ({
   text,
-  videoURL = "https://videos.pexels.com/video-files/31196472/13325298_2560_1440_25fps.mp4",
+  videoURL = "https://www.pexels.com/download/video/4508110",
   scaleSpeed = 1,
   offset = 0,
   pushToRead = false,
