@@ -1,7 +1,8 @@
 'use client'
 
-import React, { useState, useMemo } from 'react'
+import React, { useState, useMemo, useEffect, Suspense } from 'react'
 import Link from 'next/link'
+import { useSearchParams, useRouter, usePathname } from 'next/navigation'
 import { SplitText } from '@/components/molecules/SplitText/SplitText'
 import styles from '@/app/poems/page.module.scss'
 import { Post } from '@/utils/posts'
@@ -12,20 +13,30 @@ interface PoemListProps {
 
 const ITEMS_PER_PAGE = 5
 
-export const PoemList: React.FC<PoemListProps> = ({ initialPosts }) => {
+const PoemListContent: React.FC<PoemListProps> = ({ initialPosts }) => {
+  const searchParams = useSearchParams()
+  const router = useRouter()
+  const pathname = usePathname()
+
   const [searchQuery, setSearchQuery] = useState('')
   const [currentPage, setCurrentPage] = useState(1)
+
+  // Sync currentPage with URL on mount and searchParams change
+  useEffect(() => {
+    const page = searchParams.get('page')
+    if (page) {
+      setCurrentPage(parseInt(page, 10))
+    } else {
+      setCurrentPage(1)
+    }
+  }, [searchParams])
 
   const normalizeText = (text: string) => {
     return text
       .toLowerCase()
       .normalize('NFD')
       .replace(/[\u0300-\u036f]/g, '') // Remove standard accents
-      .replace(/ñ/g, 'n') // Replace ñ with n specifically if not handled by NFD (though NFD usually splits ñ to n + ~)
-      // Actually, NFD splits ñ into n + ~, so the accent removal above handles it.
-      // But let's be explicit as requested: "replace of all vowels with accents ´ to their naked form or ñ without ˜ as n"
-      // The user also mentioned "normalization including ¨ and stripping it from both end of the search comparison".
-      // Let's implement a custom replacement to be safe and exact.
+      .replace(/ñ/g, 'n')
       .replace(/[áàäâ]/g, 'a')
       .replace(/[éèëê]/g, 'e')
       .replace(/[íìïî]/g, 'i')
@@ -63,10 +74,21 @@ export const PoemList: React.FC<PoemListProps> = ({ initialPosts }) => {
   const handleSearch = (e: React.ChangeEvent<HTMLInputElement>) => {
     setSearchQuery(e.target.value)
     setCurrentPage(1) // Reset to first page on search
+    
+    // Clear page param on search
+    const params = new URLSearchParams(searchParams.toString())
+    params.delete('page')
+    router.push(`${pathname}?${params.toString()}`, { scroll: false })
   }
 
   const handlePageChange = (page: number) => {
-    setCurrentPage(page)
+    const params = new URLSearchParams(searchParams.toString())
+    if (page === 1) {
+      params.delete('page')
+    } else {
+      params.set('page', page.toString())
+    }
+    router.push(`${pathname}?${params.toString()}`, { scroll: false })
     window.scrollTo({ top: 0, behavior: 'smooth' })
   }
 
@@ -126,5 +148,13 @@ export const PoemList: React.FC<PoemListProps> = ({ initialPosts }) => {
         </div>
       )}
     </div>
+  )
+}
+
+export const PoemList: React.FC<PoemListProps> = (props) => {
+  return (
+    <Suspense fallback={<div>Cargando...</div>}>
+      <PoemListContent {...props} />
+    </Suspense>
   )
 }

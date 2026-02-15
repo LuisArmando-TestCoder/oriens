@@ -8,11 +8,11 @@
   padding: 40px;
   display: flex;
   justify-content: flex-end;
-  pointer-events: none; // Allow clicking through empty space
+  pointer-events: none;
 }
 
 .hamWrapper {
-    pointer-events: auto; // Re-enable clicks on the button
+  pointer-events: auto;
 }
 
 .ham {
@@ -23,16 +23,12 @@
   -webkit-user-select: none;
   -ms-user-select: none;
   user-select: none;
-  
-  // Custom color for lines to match theme (white/light) instead of black if needed
-  // The user's CSS has stroke:#000. I'll keep it or adjust to variable.
-  // Given the dark theme, black might not be visible. I'll use var(--foreground).
 }
 
 .line {
   fill: none;
   transition: stroke-dasharray 400ms, stroke-dashoffset 400ms;
-  stroke: var(--foreground); // Adapted from #000
+  stroke: var(--foreground);
   stroke-width: 5.5;
   stroke-linecap: round;
 }
@@ -54,7 +50,6 @@
   stroke-dashoffset: -68px;
 }
 
-// Menu Overlay
 .menu {
   position: fixed;
   top: 0;
@@ -62,13 +57,11 @@
   width: 100vw;
   height: 100vh;
   background: var(--background);
-  z-index: 90; // Below button
+  z-index: 90;
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  
-  // Transition
   opacity: 0;
   pointer-events: none;
   transition: opacity 0.4s ease;
@@ -84,11 +77,13 @@
   flex-direction: column;
   gap: 2rem;
   text-align: center;
+  position: relative;
+  z-index: 2;
 }
 
 .link {
   @include font-heading;
-  font-size: 3rem;
+  font-size: clamp(2.5rem, 8vw, 5rem);
   color: var(--foreground);
   text-decoration: none;
   opacity: 0.5;
@@ -97,5 +92,62 @@
 
   &:hover {
     opacity: 1;
+  }
+}
+
+.brandingSide {
+  position: absolute;
+  top: 0;
+  height: 100%;
+  width: 100px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  pointer-events: none;
+  opacity: 0.3;
+
+  &.left {
+    left: 40px;
+  }
+
+  &.right {
+    right: 40px;
+  }
+}
+
+.verticalText {
+  @include font-heading;
+  font-size: 0.8rem;
+  letter-spacing: 0.3em;
+  writing-mode: vertical-rl;
+  text-transform: uppercase;
+  white-space: nowrap;
+}
+
+.creativeEngineering {
+  @include font-body;
+  text-align: right;
+  max-width: 250px;
+  transform: rotate(-90deg);
+  transform-origin: center;
+  white-space: nowrap;
+
+  .title {
+    @include font-heading;
+    font-size: 1rem;
+    margin-bottom: 0.5rem;
+    text-transform: uppercase;
+  }
+
+  .text {
+    font-size: 0.7rem;
+    line-height: 1.4;
+    opacity: 0.8;
+  }
+}
+
+@media (max-width: 768px) {
+  .brandingSide {
+    display: none;
   }
 }
