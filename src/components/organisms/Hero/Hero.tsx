@@ -6,11 +6,13 @@ import { SplitText } from '../../molecules/SplitText/SplitText'
 import { Magnetic } from '../../molecules/Magnetic/Magnetic'
 import { useStore } from '@/store/useStore'
 import { useRouter } from 'next/navigation'
+import { siteContent } from '@/content/siteContent'
 import styles from './Hero.module.scss'
 
 export const Hero = () => {
   const setExplored = useStore((state) => state.setExplored)
   const router = useRouter()
+  const { hero } = siteContent
 
   const handleExplore = () => {
     router.push('/projects')
@@ -19,16 +21,16 @@ export const Hero = () => {
 
   return (
     <section id="hero" className={styles.hero}>
-      <VideoTitle text="ORIENS" />
+      <VideoTitle text={hero.title} />
       
       <div className={styles.content}>
         <p id="hero-desc" className={styles.text}>
             <SplitText id="hero-desc-text" delay={0.5}>
-            Poética orgánica, corporal y violenta
+              {hero.subtitle}
             </SplitText>
         </p>
         <Magnetic>
-            <Button id="hero-cta" onClick={handleExplore}>EXPLORAR</Button>
+            <Button id="hero-cta" onClick={handleExplore}>{hero.cta}</Button>
         </Magnetic>
       </div>
     </section>

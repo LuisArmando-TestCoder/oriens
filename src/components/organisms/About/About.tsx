@@ -3,248 +3,154 @@ import { Heading } from '@/components/atoms/Heading/Heading';
 import { VideoTitle } from '@/components/atoms/VideoTitle/VideoTitle';
 import { SplitText } from '@/components/molecules/SplitText/SplitText';
 import { ModernSlider } from '@/components/organisms/ModernSlider/ModernSlider';
+import { siteContent } from '@/content/siteContent';
 import styles from './About.module.scss';
 
 export const About = () => {
+  const { about } = siteContent;
+
   return (
     <section className={styles.about}>
-      <VideoTitle text="Aba Oriens" pushToRead offset={100} />
+      <VideoTitle text={`${about.title}`} pushToRead offset={100} />
       <div className={styles.container}>
         
         <div className={styles.intro}>
             <div className={styles.sliderContainer}>
                 <ModernSlider 
-                    images={
-                        new Array(18).fill(0).map((_, i) => ({
-                            src: `/${i + 1}.jpg`, alt: `Foto ${i + 1}`
-                        }))
-                    }
+                    images={about.images}
                  />
             </div>
 
-            <p><strong>Aba Oriens</strong> es el seudónimo de un autor contemporáneo en lengua española cuya obra se caracteriza por una poética orgánica, corporal y ontológicamente violenta. Su escritura combina fisiología, mística y crítica cultural en composiciones fragmentarias fechadas con precisión cronológica. Su producción reciente está vinculada a recitales performativos en espacios culturales independientes.</p>
+            <p><strong>{about.title}</strong> {about.intro.replace(`${about.title} `, '')}</p>
         </div>
 
-        <div className={styles.section}>
-            <Heading id="estilo" tag="h2">
-                <SplitText id="estilo-text" delay={0.2}>Estilo</SplitText>
-            </Heading>
-            <p>La prosa de Oriens se distingue por:</p>
-            <ul>
-                <li><strong>Anclaje temporal exacto</strong>: fechas, horas y minutos que funcionan como dispositivos de verosimilitud clínica.</li>
-                <li><strong>Léxico biomédico integrado a la metáfora</strong>: términos como alvéolos, hipercapnia, transverso, yugular o micelio operan como estructura simbólica y no como ornamentación técnica.</li>
-                <li><strong>Enumeración barroca</strong>: acumulaciones de marcas comerciales, bebidas alcohólicas, especias, tecnologías digitales y referentes culturales.</li>
-                <li><strong>Fusión de erotismo y trauma</strong>: el cuerpo es simultáneamente altar, campo de batalla y laboratorio.</li>
-                <li><strong>Intertextualidad cultural</strong>: referencias a fenómenos contemporáneos como blockchain, OnlyFans, plataformas de apuestas en línea y cultura pop global, en tensión con imaginarios religiosos y filosóficos.</li>
-            </ul>
-            <p>Su escritura oscila entre el poema en prosa, el monólogo dramático y el registro confesional.</p>
-        </div>
-
-        <div className={styles.section}>
-            <Heading id="temas-recurrentes" tag="h2">
-                <SplitText id="temas-recurrentes-text" delay={0.2}>Temas recurrentes</SplitText>
-            </Heading>
-            
-            <div className={styles.topic}>
-                <h3>1. El cuerpo como territorio metafísico</h3>
-                <p>El cuerpo aparece como superficie de inscripción del deseo, la culpa y la violencia. Parto, asfixia, pelea y sacrificio son imágenes centrales.</p>
+        {about.sections.map((section) => (
+            <div key={section.id} className={styles.section}>
+                <Heading id={section.id} tag="h2">
+                    <SplitText id={`${section.id}-text`} delay={0.2}>{section.title}</SplitText>
+                </Heading>
+                {section.content && <p>{section.content}</p>}
+                {section.items && (
+                    <ul>
+                        {section.items.map((item, i) => {
+                            const parts = item.split(':');
+                            if (parts.length > 1) {
+                                return (
+                                    <li key={i}>
+                                        <strong>{parts[0]}</strong>: {parts.slice(1).join(':')}
+                                    </li>
+                                );
+                            }
+                            return <li key={i}>{item}</li>;
+                        })}
+                    </ul>
+                )}
+                {section.topics && section.topics.map((topic, i) => (
+                    <div key={i} className={styles.topic}>
+                        <h3>{topic.title}</h3>
+                        <p>{topic.description}</p>
+                    </div>
+                ))}
+                {section.paragraphs && section.paragraphs.map((p, i) => (
+                    <p key={i}>{p}</p>
+                ))}
+                {section.footer && <p>{section.footer}</p>}
             </div>
-
-            <div className={styles.topic}>
-                <h3>2. Respiración y deuda existencial</h3>
-                <p>La respiración se convierte en símbolo económico y ontológico: vivir implica gasto, intercambio y desgaste irreversible.</p>
-            </div>
-
-            <div className={styles.topic}>
-                <h3>3. Mercado y trascendencia</h3>
-                <p>La lógica del consumo y la monetización digital se yuxtapone con símbolos religiosos. La salvación es presentada como transacción.</p>
-            </div>
-
-            <div className={styles.topic}>
-                <h3>4. Violencia resignificada</h3>
-                <p>La lucha física es reconfigurada como intimidad: el clinch es abrazo, la llave es protección, el golpe es confirmación de presencia.</p>
-            </div>
-
-            <div className={styles.topic}>
-                <h3>5. Hambre y asfixia</h3>
-                <p>La referencia a la polilla Atlas Attacus, que carece de boca en su fase adulta y muere tras reproducirse, funciona como alegoría de deseo sin posibilidad de nutrición.</p>
-            </div>
-        </div>
-
-        <div className={styles.section}>
-            <Heading id="estructura-tecnica" tag="h2">
-                <SplitText id="estructura-tecnica-text" delay={0.2}>Estructura y técnica</SplitText>
-            </Heading>
-            <p>La obra se organiza en entradas fechadas, lo que produce una tensión entre diario íntimo y documento clínico. La fragmentación no implica dispersión temática, sino reiteración obsesiva en espiral.</p>
-            <p>El uso de segunda persona es frecuente y ambiguo: puede referirse a una amante, a una entidad trascendente, al lector o a una construcción psíquica.</p>
-        </div>
-
-        <div className={styles.section}>
-            <Heading id="recepcion" tag="h2">
-                <SplitText id="recepcion-text" delay={0.2}>Recepción y lectura crítica</SplitText>
-            </Heading>
-            <p>La crítica ha señalado en Oriens una escritura de alta densidad imaginal y riesgo emocional. Se le asocia con una tradición que integra mística corporal, existencialismo y estética postdigital.</p>
-            <p>Algunos análisis apuntan a una tendencia a la saturación enumerativa y a la reiteración simbólica, mientras que otros destacan la coherencia interna de su universo poético.</p>
-        </div>
-
-        <div className={styles.section}>
-            <Heading id="obra-destacada" tag="h2">
-                <SplitText id="obra-destacada-text" delay={0.2}>Obra destacada</SplitText>
-            </Heading>
-            <ul>
-                <li><em>Sin anestesia</em> (2024–2026), ciclo de textos performativos presentados en recitales literarios, entre ellos en la Casa de Cultura del Banco Popular, Escalante (febrero de 2026).</li>
-            </ul>
-        </div>
-
-        <div className={styles.section}>
-             <Heading id="rasgos-distintivos" tag="h2">
-                <SplitText id="rasgos-distintivos-text" delay={0.2}>Rasgos distintivos</SplitText>
-             </Heading>
-             <ul>
-                <li>Escritura performativa diseñada para lectura en voz alta.</li>
-                <li>Intensidad sostenida sin concesiones al sentimentalismo.</li>
-                <li>Uso de terminología técnica como aparato metafísico.</li>
-                <li>Construcción de una teología del aire, el hambre y la absorción.</li>
-             </ul>
-             <p>La obra de Aba Oriens se inscribe en una poética de la exposición radical del cuerpo como prueba de existencia.</p>
-        </div>
+        ))}
 
         <hr className={styles.divider} />
 
         <div className={styles.part2}>
-             <p><strong>Aba Oriens</strong> es el seudónimo de un autor hispanohablante contemporáneo cuya obra se caracteriza por la apropiación estilística de voces literarias canónicas, la exploración explícita de la autodestrucción, la mística corporal y la crítica sistémica postindustrial. Su producción combina prosa poética, monólogo dramático, ensayo metafísico y ciencia ficción especulativa.</p>
+             <p><strong>{about.title}</strong> {about.part2.intro.replace(`${about.title} `, '')}</p>
 
              <Heading id="obras-destacadas-2" tag="h2">
                 <SplitText id="obras-destacadas-2-text" delay={0.2}>Obras destacadas</SplitText>
              </Heading>
-             <div className={styles.work}>
-                <h3>Sin anestesia (2024–2026)</h3>
-                <p>Ciclo fragmentario fechado que articula erotismo, trauma, parto, violencia simbólica y crítica cultural. Concebido para lectura performativa.</p>
-             </div>
-             
-             <div className={styles.work}>
-                <h3>Conceptos (s.f.)</h3>
-                <p>Proyecto híbrido entre novela fragmentaria y manifiesto introspectivo. Explora identidad, disociación, suicidio, memoria familiar y amor como estructura de salvación.</p>
-             </div>
+             {about.part2.works.map((work, i) => (
+                <div key={i} className={styles.work}>
+                    <h3>{work.title}</h3>
+                    <p>{work.description}</p>
+                </div>
+             ))}
 
-             <div className={styles.work}>
-                <h3>Una exploración literaria para encontrar mi voz mimada (Ahorita es la de ah DIVINA) (s.f.)</h3>
-                <p>Libro estructurado en doce capítulos titulados “Soy un poema de…”, donde el autor asume máscaras estilísticas asociadas a figuras como Emil Cioran, Sylvia Plath, Antonin Artaud, Dorothy Parker, Ana Istarú, Franz Kafka, Allen Ginsberg, Charles Baudelaire, Douglas Adams, Alejandra Pizarnik, Arthur Rimbaud y Delmira Agustini. El texto funciona como laboratorio de identidad y parodia reverencial.</p>
-             </div>
+             {about.part2.sections.map((section) => (
+                <React.Fragment key={section.id}>
+                    <Heading id={section.id} tag="h2">
+                        <SplitText id={`${section.id}-text`} delay={0.2}>{section.title}</SplitText>
+                    </Heading>
+                    
+                    {section.subsections ? (
+                        section.subsections.map((sub, i) => (
+                            <React.Fragment key={i}>
+                                <h3>{sub.title}</h3>
+                                <p>{sub.content}</p>
+                                {sub.items && (
+                                    <ul>
+                                        {sub.items.map((item, j) => (
+                                            <li key={j}>{item}</li>
+                                        ))}
+                                    </ul>
+                                )}
+                            </React.Fragment>
+                        ))
+                    ) : null}
 
-             <Heading id="estructura-concepcion" tag="h2">
-                <SplitText id="estructura-concepcion-text" delay={0.2}>Estructura y concepción</SplitText>
-             </Heading>
-             
-             <h3>Arquitectura capitular por apropiación</h3>
-             <p>Cada capítulo adopta el tono, obsesiones y ritmos atribuidos a un autor específico, no como imitación formal estricta sino como absorción temática: nihilismo, suicidio performativo, violencia metafísica, ironía cínica, erotismo místico, burocracia distópica, delirio beat, decadentismo, sátira cósmica, lirismo existencial, renuncia a la poesía y erotismo sacrificial.</p>
+                    {section.topics ? (
+                        section.topics.map((topic, i) => (
+                            <div key={i} className={styles.topic}>
+                                <h3>{topic.title}</h3>
+                                <p>{topic.description}</p>
+                            </div>
+                        ))
+                    ) : null}
 
-             <h3>Hibridación de géneros</h3>
-             <p>La obra alterna entre:</p>
-             <ul>
-                <li>Narrativa autobiográfica ficcionalizada.</li>
-                <li>Poema en prosa.</li>
-                <li>Monólogo interior.</li>
-                <li>Ensayo teológico.</li>
-                <li>Ciencia ficción solar punk.</li>
-                <li>Diálogo filosófico.</li>
-             </ul>
+                    {section.items ? (
+                        <ul>
+                            {section.items.map((item, i) => (
+                                <li key={i}>{item}</li>
+                            ))}
+                        </ul>
+                    ) : null}
 
-             <h3>Continuidad de personajes</h3>
-             <p>Figuras como Astra, Amalia, Luciano, Crío Errante y entidades como el “Gran Gestor” atraviesan distintos planos narrativos, articulando una mitología personal que oscila entre lo íntimo y lo cósmico.</p>
-
-             <Heading id="temas-recurrentes-adicional" tag="h2">
-                <SplitText id="temas-recurrentes-adicional-text" delay={0.2}>Temas recurrentes (Adicional)</SplitText>
-             </Heading>
-             
-             <div className={styles.topic}>
-                 <h3>1. Suicidio como dramaturgia</h3>
-                 <p>La repetición de intentos fallidos no se presenta como búsqueda de muerte sino como confrontación con la voluntad biológica de supervivencia. El cuerpo contradice al pensamiento.</p>
-             </div>
-             
-             <div className={styles.topic}>
-                 <h3>2. Disociación e identidad fracturada</h3>
-                 <p>El “yo” se desdobla en múltiples voces internas, interlocutores imaginarios y alter egos. La identidad es presentada como collage literario.</p>
-             </div>
-             
-             <div className={styles.topic}>
-                 <h3>3. Crítica al capitalismo tardío</h3>
-                 <p>Call centers, farmacéuticas, obsolescencia programada, monetización del sufrimiento y automatización aparecen como dispositivos de alienación.</p>
-             </div>
-             
-             <div className={styles.topic}>
-                 <h3>4. Amor como anclaje ontológico</h3>
-                 <p>En contraste con el nihilismo, la relación amorosa se presenta como reorganización del sentido. La frase “hogar es el lugar del que ya no quieres huir” sintetiza esta tesis.</p>
-             </div>
-             
-             <div className={styles.topic}>
-                 <h3>5. Trascendencia tecnológica</h3>
-                 <p>La estación Solar Punk Station, la eugenesia, el transhumanismo y las inteligencias artificiales configuran un escenario donde la humanidad se redefine fuera de la Tierra.</p>
-             </div>
-             
-             <div className={styles.topic}>
-                 <h3>6. Teología intuitiva</h3>
-                 <p>El ensayo final desarrolla una imagen de Dios como jardinero austero, soberano sin deseo de dominio, cuestionado moralmente por el sufrimiento humano.</p>
-             </div>
-
-             <Heading id="estilo-2" tag="h2">
-                <SplitText id="estilo-2-text" delay={0.2}>Estilo</SplitText>
-             </Heading>
-             <ul>
-                <li>Léxico técnico integrado a la metáfora.</li>
-                <li>Enumeraciones extensas de alta densidad sensorial.</li>
-                <li>Alternancia entre español e inglés.</li>
-                <li>Imágenes corporales explícitas.</li>
-                <li>Ironía que coexiste con misticismo.</li>
-                <li>Saturación emocional sostenida.</li>
-             </ul>
-             <p>La prosa oscila entre el barroquismo acumulativo y el verso minimalista.</p>
-
-             <Heading id="rasgos-distintivos-2" tag="h2">
-                <SplitText id="rasgos-distintivos-2-text" delay={0.2}>Rasgos distintivos</SplitText>
-             </Heading>
-             <ul>
-                <li>Uso sistemático de la máscara literaria como método de autoconstrucción.</li>
-                <li>Reescritura del trauma mediante ciencia ficción especulativa.</li>
-                <li>Erotización de la asfixia y del límite.</li>
-                <li>Concepción del liderazgo divino como renuncia al poder.</li>
-                <li>Declaración explícita de que la felicidad puede clausurar la literatura trágica.</li>
-             </ul>
-
-             <p>La obra de Aba Oriens se inscribe en una tradición de escritura confesional radical que transforma el colapso psíquico en arquitectura simbólica y el amor en reorganización cosmológica.</p>
+                    {section.footer && <p>{section.footer}</p>}
+                </React.Fragment>
+             ))}
         </div>
 
         <hr className={styles.divider} />
 
-        <div className={styles.section} id="developer-profile">
+        <div className={styles.section} id={about.developer.id}>
             <Heading id="creative-engineer" tag="h2">
-                <SplitText id="creative-engineer-text" delay={0.2}>Ingeniero Creativo</SplitText>
+                <SplitText id="creative-engineer-text" delay={0.2}>{about.developer.title}</SplitText>
             </Heading>
             <div className={styles.intro}>
-                <p><strong>Luis Murillo Baltodano</strong> (Ingeniero Creativo Senior)</p>
-                <p>Profundamente interesado en ofrecer experiencias limpias a todo tipo de usuarios al crear el producto, porque su calidad en todos los ejes se siente profundamente personal.</p>
-                <p>En cuanto al desarrollo de software, los campos que más me apasionan son los gráficos por computadora, el arte generativo, la automatización y la optimización de nuestra vida cotidiana.</p>
+                <p><strong>{about.developer.name}</strong> ({about.developer.role})</p>
+                {about.developer.bio.map((p, i) => (
+                    <p key={i}>{p}</p>
+                ))}
             </div>
 
             <div className={styles.topic}>
-                <h3>Stack Técnico</h3>
-                <p><strong>JavaScript/TypeScript</strong>: Utilizado todos los días (servidor y front-end), con diferentes frameworks dependiendo del proyecto (React, Next.js, Vue.js) o incluso JavaScript puro.</p>
-                <p><strong>Go (Golang)</strong>: Mi mejor amigo cuando se trata de servicios web y/o herramientas de automatización.</p>
-                <p><strong>Creative Coding</strong>: Three.js, A-Frame, P5.js y librerías personalizadas son las herramientas elegidas al trabajar con gráficos 2D y 3D.</p>
+                <h3>{about.developer.stack.title}</h3>
+                {about.developer.stack.items.map((item, i) => (
+                    <p key={i}><strong>{item.label}</strong>: {item.description}</p>
+                ))}
             </div>
 
             <div className={styles.topic}>
-                <h3>Filosofía</h3>
-                <p>Estoy abierto a usar cualquier herramienta (librería, framework, metodología) para obtener el mejor producto. Convertimos a fundadores atrapados en su trabajo en dueños. La mayoría de las personas con grandes ideas se quedan estancadas en la ejecución. Nosotros construimos el apalancamiento para que tú puedas concentrarte en la exploración.</p>
+                <h3>{about.developer.philosophy.title}</h3>
+                <p>{about.developer.philosophy.content}</p>
             </div>
 
             <div className={styles.topic}>
-                <h3>Contacto</h3>
+                <h3>{about.developer.contact.title}</h3>
                 <p>Dónde encontrarme:</p>
                 <ul>
-                    <li><a href="https://github.com/LuisArmando-TestCoder" target="_blank" rel="noopener noreferrer">GitHub</a></li>
-                    <li><a href="https://codepen.io/LuisArmando-TC" target="_blank" rel="noopener noreferrer">CodePen</a></li>
-                    <li><a href="mailto:oriens@aiban.news">Email</a></li>
+                    {about.developer.contact.links.map((link, i) => (
+                        <li key={i}>
+                            <a href={link.href} target="_blank" rel="noopener noreferrer">{link.label}</a>
+                        </li>
+                    ))}
                 </ul>
             </div>
         </div>
