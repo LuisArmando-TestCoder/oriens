@@ -2,10 +2,12 @@
 import React, { useState } from 'react'
 import Link from 'next/link'
 import clsx from 'clsx'
+import { siteContent } from '@/content/siteContent'
 import styles from './Navigation.module.scss'
 
 export const Navigation = () => {
   const [isActive, setIsActive] = useState(false)
+  const { navigation } = siteContent
 
   const toggleMenu = () => {
     setIsActive(!isActive)
@@ -35,15 +37,11 @@ export const Navigation = () => {
 
       <nav className={clsx(styles.menu, isActive && styles.open)}>
           <div className={styles.links}>
-              <Link href="/" className={styles.link} onClick={closeMenu}>
-                  INICIO
-              </Link>
-              <Link href="/projects" className={styles.link} onClick={closeMenu}>
-                  PROYECTOS
-              </Link>
-              <Link href="/poems" className={styles.link} onClick={closeMenu}>
-                  POEMAS
-              </Link>
+              {navigation.links.map((link, i) => (
+                <Link key={i} href={link.href} className={styles.link} onClick={closeMenu}>
+                    {link.label}
+                </Link>
+              ))}
           </div>
       </nav>
     </>

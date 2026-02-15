@@ -1,8 +1,15 @@
 export const siteContent = {
   metadata: {
-    title: "Aba Oriens",
-    description: "Poética orgánica, corporal y ontológicamente violenta.",
-    author: "Luis Murillo",
+    title: "Aba Oriens | Poética Orgánica e Ingeniería Creativa",
+    description: "Aba Oriens es un autor contemporáneo cuya obra combina fisiología, mística y crítica cultural. Perfil de Luis Murillo Baltodano, Ingeniero Creativo Senior especializado en gráficos por computadora y arte generativo.",
+    author: "Luis Murillo Baltodano",
+    keywords: ["Aba Oriens", "Luis Murillo Baltodano", "Poesía contemporánea", "Literatura experimental", "Ingeniería Creativa", "Creative Coding", "WebGL", "Three.js", "Arte Generativo", "Costa Rica", "Escritura performativa"],
+    og: {
+      title: "Aba Oriens | Poética Orgánica e Ingeniería Creativa",
+      description: "Explora la obra de Aba Oriens y el portafolio técnico de Luis Murillo Baltodano. Fusión de literatura experimental y tecnología creativa.",
+      url: "https://oriens.aiban.news",
+      image: "/1.jpeg",
+    }
   },
   navigation: {
     links: [

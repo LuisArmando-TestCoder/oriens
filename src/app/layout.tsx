@@ -3,6 +3,7 @@ import { Geist, Geist_Mono, Montserrat } from "next/font/google";
 import { Navigation } from "@/components/organisms/Navigation/Navigation";
 import { Footer } from "@/components/organisms/Footer/Footer";
 import { SmoothScroll } from "@/components/organisms/SmoothScroll/SmoothScroll";
+import { siteContent } from "@/content/siteContent";
 import "../styles/globals.scss";
 
 const geistSans = Geist({
@@ -20,21 +21,23 @@ const montserrat = Montserrat({
   subsets: ["latin"],
 });
 
+const { metadata: siteMetadata } = siteContent;
+
 export const metadata: Metadata = {
-  title: "Aba Oriens | Poética Orgánica e Ingeniería Creativa",
-  description: "Aba Oriens es un autor contemporáneo cuya obra combina fisiología, mística y crítica cultural. Perfil de Luis Murillo Baltodano, Ingeniero Creativo Senior especializado en gráficos por computadora y arte generativo.",
-  keywords: ["Aba Oriens", "Luis Murillo Baltodano", "Poesía contemporánea", "Literatura experimental", "Ingeniería Creativa", "Creative Coding", "WebGL", "Three.js", "Arte Generativo", "Costa Rica", "Escritura performativa"],
+  title: siteMetadata.title,
+  description: siteMetadata.description,
+  keywords: siteMetadata.keywords,
   openGraph: {
-    title: "Aba Oriens | Poética Orgánica e Ingeniería Creativa",
-    description: "Explora la obra de Aba Oriens y el portafolio técnico de Luis Murillo Baltodano. Fusión de literatura experimental y tecnología creativa.",
-    url: "https://oriens.aiban.news",
-    siteName: "Aba Oriens",
+    title: siteMetadata.og.title,
+    description: siteMetadata.og.description,
+    url: siteMetadata.og.url,
+    siteName: siteMetadata.title.split('|')[0].trim(),
     images: [
       {
-        url: "/1.jpeg",
+        url: siteMetadata.og.image,
         width: 1200,
         height: 630,
-        alt: "Aba Oriens Visual Identity",
+        alt: `${siteMetadata.title.split('|')[0].trim()} Visual Identity`,
       },
     ],
     locale: "es_ES",
@@ -42,9 +45,9 @@ export const metadata: Metadata = {
   },
   twitter: {
     card: "summary_large_image",
-    title: "Aba Oriens | Poética Orgánica e Ingeniería Creativa",
-    description: "Explora la obra de Aba Oriens y el portafolio técnico de Luis Murillo Baltodano.",
-    images: ["/1.jpeg"],
+    title: siteMetadata.og.title,
+    description: siteMetadata.og.description,
+    images: [siteMetadata.og.image],
   },
   icons: {
     icon: "/favicon.ico",
