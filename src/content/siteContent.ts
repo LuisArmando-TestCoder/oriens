@@ -11,6 +11,15 @@ export const siteContent = {
       image: "/1.jpeg",
     }
   },
+  theme: {
+    colors: {
+      background: "#050505",
+      foreground: "#ededed",
+      primary: "#ff0055",
+      secondary: "#00ffff",
+      accent: "#ffae00",
+    }
+  },
   navigation: {
     links: [
       { label: "INICIO", href: "/" },

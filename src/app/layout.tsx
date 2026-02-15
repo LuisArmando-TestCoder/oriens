@@ -21,7 +21,7 @@ const montserrat = Montserrat({
   subsets: ["latin"],
 });
 
-const { metadata: siteMetadata } = siteContent;
+const { metadata: siteMetadata, theme } = siteContent;
 
 export const metadata: Metadata = {
   title: siteMetadata.title,
@@ -63,6 +63,14 @@ export default function RootLayout({
     <html lang="es">
       <body
         className={`${geistSans.variable} ${geistMono.variable} ${montserrat.variable}`}
+        style={{
+          // @ts-ignore - Setting CSS variables from JS
+          "--background": theme.colors.background,
+          "--foreground": theme.colors.foreground,
+          "--primary": theme.colors.primary,
+          "--secondary": theme.colors.secondary,
+          "--accent": theme.colors.accent,
+        }}
       >
         <SmoothScroll>
           <Navigation />
