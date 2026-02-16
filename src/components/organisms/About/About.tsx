@@ -1,16 +1,24 @@
-import React from 'react';
+'use client'
+import React, { useState } from 'react';
 import { Heading } from '@/components/atoms/Heading/Heading';
 import { VideoTitle } from '@/components/atoms/VideoTitle/VideoTitle';
 import { SplitText } from '@/components/molecules/SplitText/SplitText';
 import { ModernSlider } from '@/components/organisms/ModernSlider/ModernSlider';
+import { ModernModal } from '@/components/molecules/ModernModal/ModernModal';
 import { siteContent } from '@/content/siteContent';
 import styles from './About.module.scss';
 
 export const About = () => {
   const { about } = siteContent;
+  const [modalImage, setModalImage] = useState<{ src: string; alt: string } | null>(null);
 
   return (
     <section className={styles.about}>
+      <ModernModal 
+        isOpen={!!modalImage} 
+        onClose={() => setModalImage(null)} 
+        image={modalImage} 
+      />
       <VideoTitle text={`${about.title}`} pushToRead offset={100} />
       <div className={styles.container}>
         
@@ -18,6 +26,7 @@ export const About = () => {
             <div className={styles.sliderContainer}>
                 <ModernSlider 
                     images={about.images}
+                    onImageClick={setModalImage}
                  />
             </div>
 

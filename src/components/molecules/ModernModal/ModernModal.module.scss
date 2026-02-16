@@ -1,0 +1,93 @@
+.modal {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+    z-index: 9999;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    pointer-events: auto;
+  }
+  
+  .overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.85);
+    backdrop-filter: blur(10px);
+    opacity: 0;
+  }
+  
+  .content {
+    position: relative;
+    width: 90vw;
+    height: 90vh;
+    z-index: 1;
+    opacity: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .imageWrapper {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    max-width: 1400px;
+    max-height: 90vh;
+    
+    // Ensure image maintains aspect ratio and fits
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .image {
+    object-fit: contain;
+    width: 100%;
+    height: 100%;
+    // Shadows for depth
+    box-shadow: 0 20px 50px rgba(0,0,0,0.5);
+  }
+  
+  .closeButton {
+    position: absolute;
+    top: -20px;
+    right: 0;
+    background: none;
+    border: none;
+    color: white;
+    font-family: var(--font-heading, sans-serif);
+    font-size: 0.9rem;
+    letter-spacing: 0.2em;
+    cursor: pointer;
+    text-transform: uppercase;
+    padding: 10px;
+    
+    &::after {
+      content: '';
+      display: block;
+      width: 100%;
+      height: 1px;
+      background: white;
+      transform: scaleX(0);
+      transform-origin: right;
+      transition: transform 0.4s var(--ease-out-expo, ease-out);
+      margin-top: 4px;
+    }
+    
+    &:hover::after {
+      transform: scaleX(1);
+      transform-origin: left;
+    }
+
+    @media (max-width: 768px) {
+        top: 10px;
+        right: 10px;
+    }
+  }

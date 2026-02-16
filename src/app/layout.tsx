@@ -62,6 +62,7 @@ export default function RootLayout({
   return (
     <html lang="es">
       <body
+        suppressHydrationWarning
         className={`${geistSans.variable} ${geistMono.variable} ${montserrat.variable}`}
         style={{
           // @ts-ignore - Setting CSS variables from JS

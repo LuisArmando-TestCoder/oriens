@@ -11,13 +11,15 @@ if (typeof window !== 'undefined') {
 
 interface ModernSliderProps {
   images: { src: string; alt: string }[]
+  onImageClick?: (image: { src: string; alt: string }) => void
 }
 
-export const ModernSlider = ({ images }: ModernSliderProps) => {
+export const ModernSlider = ({ images, onImageClick }: ModernSliderProps) => {
   const containerRef = useRef<HTMLDivElement>(null)
   const trackRef = useRef<HTMLDivElement>(null)
   const [activeIndex, setActiveIndex] = useState(0)
   const progressRef = useRef<HTMLDivElement>(null)
+  const isDraggingRef = useRef(false)
 
   useEffect(() => {
     if (!trackRef.current || !containerRef.current) return
@@ -44,6 +46,8 @@ export const ModernSlider = ({ images }: ModernSliderProps) => {
       trigger: container,
       type: 'x',
       inertia: true,
+      onDragStart: () => { isDraggingRef.current = true },
+      onDragEnd: () => { setTimeout(() => { isDraggingRef.current = false }, 50) },
       onDrag: function(this: any) { update(this.x) },
       onThrowUpdate: function(this: any) { update(this.x) },
       snap: {
@@ -97,7 +101,12 @@ export const ModernSlider = ({ images }: ModernSliderProps) => {
     <div className={styles.wrapper} ref={containerRef}>
       <div className={styles.track} ref={trackRef}>
         {images.map((img, i) => (
-          <div key={i} className={`${styles.item} slider-item`}>
+          <div 
+            key={i} 
+            className={`${styles.item} slider-item`}
+            onClick={() => !isDraggingRef.current && onImageClick?.(img)}
+            style={{ cursor: onImageClick ? 'pointer' : 'default' }}
+          >
             <div className={styles.imageContainer}>
               <img src={img.src} alt={img.alt} />
             </div>
