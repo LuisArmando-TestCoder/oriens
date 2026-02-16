@@ -1,12 +1,14 @@
 'use client'
 import React, { useState } from 'react'
 import Link from 'next/link'
+import { usePathname } from 'next/navigation'
 import clsx from 'clsx'
 import { siteContent } from '@/content/siteContent'
 import styles from './Navigation.module.scss'
 
 export const Navigation = () => {
   const [isActive, setIsActive] = useState(false)
+  const pathname = usePathname()
   const { navigation, footer } = siteContent
 
   const toggleMenu = () => {
@@ -46,11 +48,22 @@ export const Navigation = () => {
         </div>
 
         <div className={styles.links}>
-          {navigation.links.map((link, i) => (
-            <Link key={i} href={link.href} className={styles.link} onClick={closeMenu}>
-              {link.label}
-            </Link>
-          ))}
+          {navigation.links.map((link, i) => {
+            const isLinkActive = link.href === '/' 
+              ? pathname === link.href 
+              : pathname.startsWith(link.href)
+            
+            return (
+              <Link
+                key={i}
+                href={link.href}
+                className={clsx(styles.link, isLinkActive && styles.activeLink)}
+                onClick={closeMenu}
+              >
+                {link.label}
+              </Link>
+            )
+          })}
         </div>
 
         <div className={clsx(styles.brandingSide, styles.right)}>
