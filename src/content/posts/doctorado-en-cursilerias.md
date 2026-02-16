@@ -4,7 +4,7 @@ date: "2026-02-16"
 excerpt: "Ayer fui a una clase de filosofía..."
 ---
 
-Ayer fui a una clase de filosofía y aprendí que si no escucho a un árbol caer, y muero, el árbol se queda en suspenso, en lo que se acaba mi Universo, y qué diferencia hay entre “mi” y “el”, entre mí y él, miel, ¿mi hiel? 
+Ayer fui a una clase de filosofía y aprendí que si no escucho a un árbol caer, y muero, el árbol se queda en suspenso, en lo que se acaba mi Universo, y qué diferencia hay entre “mi” y “el”, entre mí y él, ¿miel? 
 
 Antier asistí a una clase de psiquiatría, y aprendí que los efectos fisiológicos del estrés pueden matarnos, y no hay cantidad de psilocibina que supere la oxitocina que se libera con el tacto. 
 
