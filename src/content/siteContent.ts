@@ -39,7 +39,7 @@ export const siteContent = {
       alt: `Foto ${i + 1}`,
     })),
     intro:
-      "Aba Oriens es el seudónimo de un autor contemporáneo en lengua española cuya obra se caracteriza por una poética orgánica, corporal y ontológicamente violenta. Su escritura combina fisiología, mística y crítica cultural en composiciones fragmentarias fechadas con precisión cronológica. Su producción reciente está vinculada a recitales performativos en espacios culturales independientes.",
+      "Aba Oriens es el seudónimo de un autor contemporáneo en lengua española cuya obra se caracteriza por una poética orgánica, corporal violenta. Su escritura combina fisiología, mística y crítica cultural en composiciones fragmentarias fechadas con precisión cronológica. Su producción reciente está vinculada a recitales performativos en espacios culturales independientes.",
     sections: [
       {
         id: "estilo",
@@ -257,7 +257,7 @@ export const siteContent = {
   },
   footer: {
     brand: "Aba Oriens",
-    tagline: "Poética orgánica, corporal y ontológicamente violenta.",
+    tagline: "Poética orgánica, corporal violenta.",
     identityKeywords: ["Cuerpo", "Mística", "Tecnología"],
     creativeEngineering: {
       title: "Ingeniería Creativa",

@@ -53,7 +53,7 @@ export default function ProjectsPage() {
             </SplitText>
           </h3>
           <div>
-            <p>Obra literaria contemporánea caracterizada por una poética orgánica y ontológicamente violenta.</p>
+            <p>Obra literaria contemporánea caracterizada por una poética orgánica violenta.</p>
             <div className={styles.details}>
               <ul>
                 <li><strong>Anclaje temporal</strong>: Fechas y horas como dispositivos de verosimilitud clínica.</li>
