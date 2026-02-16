@@ -15,13 +15,84 @@ export const ModernModal = ({ isOpen, onClose, image }: ModernModalProps) => {
   const modalRef = useRef<HTMLDivElement>(null)
   const overlayRef = useRef<HTMLDivElement>(null)
   const imageRef = useRef<HTMLDivElement>(null)
+  const wrapperRef = useRef<HTMLDivElement>(null)
   const [visible, setVisible] = useState(isOpen)
   const [isMounted, setIsMounted] = useState(false)
+  
+  // Scanning logic refs
+  const isScanning = useRef(false)
+  const xTo = useRef<gsap.QuickToFunc | null>(null)
+  const yTo = useRef<gsap.QuickToFunc | null>(null)
 
   useEffect(() => {
     setIsMounted(true)
     return () => setIsMounted(false)
   }, [])
+
+  // Initialize QuickTo
+  useEffect(() => {
+    if (isOpen && wrapperRef.current) {
+        const img = wrapperRef.current.querySelector('img');
+        if (img) {
+            xTo.current = gsap.quickTo(img, "x", { duration: 0.1, ease: "power2.out" });
+            yTo.current = gsap.quickTo(img, "y", { duration: 0.1, ease: "power2.out" });
+        }
+    }
+  }, [isOpen])
+
+  const handlePointerDown = (e: React.PointerEvent) => {
+      e.stopPropagation();
+      e.preventDefault(); // Prevent default drag behavior
+      isScanning.current = true;
+      
+      const img = wrapperRef.current?.querySelector('img');
+      if (img) {
+        gsap.to(img, {
+            scale: 2.5,
+            duration: 0.4,
+            ease: 'power2.out'
+        });
+        handlePointerMove(e);
+      }
+  }
+  
+  const handlePointerUp = (e: React.PointerEvent) => {
+      e.stopPropagation();
+      isScanning.current = false;
+      
+      const img = wrapperRef.current?.querySelector('img');
+      if (img) {
+        gsap.to(img, {
+            scale: 1,
+            x: 0,
+            y: 0,
+            duration: 0.5,
+            ease: 'elastic.out(1, 0.75)'
+        });
+      }
+  }
+  
+  const handlePointerMove = (e: React.PointerEvent) => {
+      if (!isScanning.current || !wrapperRef.current) return;
+      
+      const rect = wrapperRef.current.getBoundingClientRect();
+      const xPct = (e.clientX - rect.left) / rect.width;
+      const yPct = (e.clientY - rect.top) / rect.height;
+      
+      const safeX = Math.max(0, Math.min(1, xPct));
+      const safeY = Math.max(0, Math.min(1, yPct));
+      
+      const scale = 2.5;
+      const width = rect.width;
+      const height = rect.height;
+      
+      // Calculate pan to center the mouse position
+      const targetX = (0.5 - safeX) * width * (scale - 1);
+      const targetY = (0.5 - safeY) * height * (scale - 1);
+      
+      xTo.current?.(targetX);
+      yTo.current?.(targetY);
+  }
 
   useEffect(() => {
     if (isOpen) {
@@ -88,7 +159,16 @@ export const ModernModal = ({ isOpen, onClose, image }: ModernModalProps) => {
       <div className={styles.overlay} ref={overlayRef} onClick={onClose}></div>
       <div className={styles.content} ref={imageRef}>
          {image && (
-             <div className={styles.imageWrapper} onClick={(e) => e.stopPropagation()}>
+             <div 
+                className={styles.imageWrapper} 
+                ref={wrapperRef}
+                onPointerDown={handlePointerDown}
+                onPointerUp={handlePointerUp}
+                onPointerLeave={handlePointerUp}
+                onPointerMove={handlePointerMove}
+                onClick={(e) => e.stopPropagation()}
+                style={{ cursor: isScanning.current ? 'none' : 'zoom-in' }}
+             >
                  <Image 
                     src={image.src} 
                     alt={image.alt} 
@@ -96,6 +176,7 @@ export const ModernModal = ({ isOpen, onClose, image }: ModernModalProps) => {
                     className={styles.image}
                     sizes="90vw"
                     priority
+                    draggable={false}
                  />
              </div>
          )}
