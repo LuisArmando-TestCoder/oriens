@@ -85,7 +85,7 @@ export default async function Post({ params }: { params: Promise<{ slug: string 
           <p style={{ fontSize: '1rem', opacity: 0.5, marginBottom: '4rem', letterSpacing: '0.2em' }}>{post.date}</p>
           <div
             dangerouslySetInnerHTML={{ __html: content }}
-            style={{ fontSize: '1.2rem', lineHeight: '1.8', opacity: 0.9, maxWidth: "920px", textAlign: "justify", margin: "auto", marginBottom: '8rem' }}
+            style={{ fontSize: '1.2rem', lineHeight: '1.8', opacity: 0.9, maxWidth: "920px", textAlign: "justify", margin: "auto" }}
           />
         </article>
 
