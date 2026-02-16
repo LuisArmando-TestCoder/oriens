@@ -1,8 +1,8 @@
 ---
 title: "Lasceraciones"
 date: "2017-11-02"
-excerpt: "Si mis observaciones tuviesen filo"
+excerpt: "Si tus observaciones tuviesen filo"
 ---
 Kinos
 
-Si mis observaciones tuviesen filo te habrías desangrado ya con cortaduras en los hombros, laseraciones recorriendo espirales hasta el cuello, y las palmas con que oramos, alma escurriendo por los codos, lascerada, tu espalda repleta de tantísimos poemas, líneas en tu torso, lazos en los muslos, mis dedos desrizando, y con sumísimo cuidado, te derramarías en mis clisos.
+Si tus observaciones tuviesen filo me habrías desangrado ya con cortaduras en los hombros, laseraciones recorriendo espirales hasta el cuello, y las palmas con que oramos, alma escurriendo por los codos, espalda repleta de tantísimas líneas, dedos desrizando lazos lascerados, los glifos en mi torso, y con sumísimo cuidado, terminaría derramándome en tus clisos.
