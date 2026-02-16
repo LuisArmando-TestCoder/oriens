@@ -1,6 +1,6 @@
 ---
 title: "Oriens"
-date: "2023-09-01"
+date: "2023-02-16"
 excerpt: "Si soy un demonio versado, reinando el Este, por la inevitabilidad de mi naturaleza, Oriens, equitando elefantes rosas..."
 ---
 
