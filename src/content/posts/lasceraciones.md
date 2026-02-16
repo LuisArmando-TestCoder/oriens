@@ -5,4 +5,4 @@ excerpt: "Si tus observaciones tuviesen filo"
 ---
 Kinos
 
-Si tus observaciones tuviesen filo me habrías desangrado ya con cortaduras en los hombros, laseraciones recorriendo espirales hasta el cuello, y las palmas con que oramos, alma escurriendo por los codos, espalda repleta de tantísimas líneas, dedos desrizando lazos lascerados, los glifos en mi torso, y con sumísimo cuidado, terminaría derramándome en tus clisos.
+Si tus observaciones tuviesen filo me habrías desangrado ya con cortaduras en los hombros, laseraciones recorriendo espirales hasta el cuello, y las palmas con que oramos, alma escurriendo por los codos, espalda repleta de tantísimas líneas, dedos desrizando lazos lascerados, glifos en mi torso, y con sumísimo cuidado, terminaría derramándome en tus clisos.
