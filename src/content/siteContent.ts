@@ -100,7 +100,7 @@ export const siteContent = {
         id: "obra-destacada",
         title: "Obra destacada",
         items: [
-          "Sin anestesia (2024–2026), ciclo de textos performativos presentados en recitales literarios, entre ellos en la Casa de Cultura del Banco Popular, Escalante (febrero de 2026).",
+          "Sin anestesia (2024–2026), ciclo de textos performativos presentados en recitales literarios, entre ellos en la Centro Cultural e Histórico José Figueres Ferrer, Escalante (febrero de 2026).",
         ],
       },
       {

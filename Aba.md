@@ -131,13 +131,13 @@ Como estar en la selva, preparados, armados hasta los dientes de municiones, esp
 Como poder, y no deber decir qué tanto: —¿qué tanto qué?  
 Sábado, 31 de Enero, 2025
 
-## *Para el Recital del Jueves, 12 de febrero, 2026 (Casa de Cultura del Banco Popular, Escalante)*  *Mariposas carnívoras elevando un cadáver*
+## *Para el Recital del Jueves, 12 de febrero, 2026 (Centro Cultural e Histórico José Figueres Ferrer, Escalante)*  *Mariposas carnívoras elevando un cadáver*
 
 Si antagonizaran, las damas de la justicia, a los íncubos raptores, los oboes frigiedignos, las, acorde a los templarios, esposas del maligno, atraerían grandes daneses y felinos negros, esparcerían opioides por el campo, los transformarían en familiares, y quién los educaría, sino el pacto; se volverían servidores versados, que atraerían cazadores, presas que puedan asesinarlos, y el ritual sería, cara y cruz revoloteando, sugestivos, agotarlos, una jauría en la carótida; colapsa la columna de arañazos, y sus congénitas, carnívoras, morderían, súbitas, hasta el hartazgo, y en honor al sacrificio, cual larvas en difunto, el 1% del 1% de las larvarias, mariposas antropofágicas, forrándolos de besos, comenzarían a elevarlos, y empezaría a lloviznar íncubos.
 
 # Lunes, 9 de Febrero, 2026
 
-## *Para el Recital del Jueves, 12 de febrero, 2026 (Casa de Cultura del Banco Popular, Escalante) Mariposas alimentándose de flores pintadas en la pared.*
+## *Para el Recital del Jueves, 12 de febrero, 2026 (Centro Cultural e Histórico José Figueres Ferrer, Escalante) Mariposas alimentándose de flores pintadas en la pared.*
 
 Mirándolas encomendarse al muro, probóscide intentando sustentarse del epoxi, rezo a Nuestra Señora, Aba Padre, que interceda por nosotros, que la resina que se atora en sus traqueolas les sepa al néctar que rastrean; que alucinen, su tórax polvoriento, está rozando la protuberancia de un pistilo, teniendo la impresión de que todo lo que hacen sirve para algo, y que el señuelo de cortejo giratorio guarde con sigilo que un atlas está apareándose con la iridiscencia de un smartphone. 
 
@@ -147,7 +147,7 @@ Allende la serenísima princesa doña Catalina, tomando té en Portsmouth, 3.99 
 
 # Miércoles, 11 de Febrero, 2026
 
-## *Para el Recital del Jueves, 12 de febrero, 2026 (Casa de Cultura del Banco Popular, Escalante) ¿Qué tienen en común la inanición y la asfixia erótica? Las polillas macho Atlas Attacus no tienen boca, se reproducen, y luego mueren de hambre en cuestión de 7 días; y yo sostengo la respiración, ya sea por la estructura subyacente de nuestros órganos o por un delirio paranoico. Aka cursilerías*
+## *Para el Recital del Jueves, 12 de febrero, 2026 (Centro Cultural e Histórico José Figueres Ferrer, Escalante) ¿Qué tienen en común la inanición y la asfixia erótica? Las polillas macho Atlas Attacus no tienen boca, se reproducen, y luego mueren de hambre en cuestión de 7 días; y yo sostengo la respiración, ya sea por la estructura subyacente de nuestros órganos o por un delirio paranoico. Aka cursilerías*
 
 Dióxido de carbono,   
 lléname de pánico,   

@@ -4,7 +4,7 @@ date: "2026-02-09"
 excerpt: "Mirándolas encomendarse al muro, probóscide intentando sustentarse del epoxi, rezo a Nuestra Señora."
 ---
 
-## *Para el Recital del Jueves, 12 de febrero, 2026 (Casa de Cultura del Banco Popular, Escalante) Mariposas alimentándose de flores pintadas en la pared.*
+## *Para el Recital del Jueves, 12 de febrero, 2026 (Centro Cultural e Histórico José Figueres Ferrer, Escalante) Mariposas alimentándose de flores pintadas en la pared.*
 
 Mirándolas encomendarse al muro, probóscide intentando sustentarse del epoxi, rezo a Nuestra Señora, Aba Padre, que interceda por nosotros, que la resina que se atora en sus traqueolas les sepa al néctar que rastrean; que alucinen, su tórax polvoriento, está rozando la protuberancia de un pistilo, teniendo la impresión de que todo lo que hacen sirve para algo, y que el señuelo de cortejo giratorio guarde con sigilo que un atlas está apareándose con la iridiscencia de un smartphone. 
 

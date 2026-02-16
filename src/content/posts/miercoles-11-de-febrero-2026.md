@@ -4,7 +4,7 @@ date: "2026-02-11"
 excerpt: "¿Qué tienen en común la inanición y la asfixia erótica? Las polillas macho Atlas Attacus no tienen boca."
 ---
 
-## *Para el Recital del Jueves, 12 de febrero, 2026 (Casa de Cultura del Banco Popular, Escalante) ¿Qué tienen en común la inanición y la asfixia erótica? Las polillas macho Atlas Attacus no tienen boca, se reproducen, y luego mueren de hambre en cuestión de 7 días; y yo sostengo la respiración, ya sea por la estructura subyacente de nuestros órganos o por un delirio paranoico. Aka cursilerías*
+## *Para el Recital del Jueves, 12 de febrero, 2026 (Centro Cultural e Histórico José Figueres Ferrer, Escalante) ¿Qué tienen en común la inanición y la asfixia erótica? Las polillas macho Atlas Attacus no tienen boca, se reproducen, y luego mueren de hambre en cuestión de 7 días; y yo sostengo la respiración, ya sea por la estructura subyacente de nuestros órganos o por un delirio paranoico. Aka cursilerías*
 
 Dióxido de carbono,   
 lléname de pánico,   
