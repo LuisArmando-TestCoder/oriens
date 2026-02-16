@@ -60,7 +60,7 @@ export default async function Post({ params }: { params: Promise<{ slug: string 
         id="post-content"
         style={{
           minHeight: '100vh',
-          padding: '10vh 20vw',
+          padding: '20vh min(20vw, 31px)',
           position: 'relative',
           zIndex: 1,
           background: 'rgba(0,0,0,0.8)',
