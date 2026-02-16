@@ -181,7 +181,7 @@ export const ModernModal = ({ isOpen, onClose, image }: ModernModalProps) => {
              </div>
          )}
          <button className={styles.closeButton} onClick={onClose}>
-            CLOSE
+            CERRAR
          </button>
       </div>
     </div>,
