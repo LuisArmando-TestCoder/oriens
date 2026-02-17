@@ -1,5 +1,5 @@
 ---
-title: "Daemon de Elefantes Rosas"
+title: "Daemon de Elefantes Rosa"
 date: "2026-02-15"
 excerpt: "Si soy un demonio versado, reinando el Este, Oriens, equitando elefantes rosas..."
 ---
