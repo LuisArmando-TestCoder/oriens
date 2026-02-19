@@ -1,5 +1,5 @@
 ---
-title: "No es Vacío, es Espacio."
+title: "Vacante"
 date: "2023-09-01"
 excerpt: "Tengo una fosa en la boca del plexo, pienso, 'qué raros son los cuerpos', esto en mi pecho no es vacío, es espacio"
 ---
