@@ -34,7 +34,7 @@ export const siteContent = {
   },
   about: {
     title: "Aba Oriens",
-    images: new Array(22).fill(0).map((_, i) => ({
+    images: new Array(23).fill(0).map((_, i) => ({
       src: `/${i + 1}.jpg`,
       alt: `Foto ${i + 1}`,
     })),
