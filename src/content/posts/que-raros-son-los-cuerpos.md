@@ -22,5 +22,6 @@ la textura de tus hombros,
 si tal cosa existe.
 
 Si los cuerpos son lugares,
-y esto que siento no es vacío,
-entonces es espacio.
+y esto que siento no es vacío sino espacio,
+tengo una fosa en la boca del plexo
+mordiéndose los labios.
