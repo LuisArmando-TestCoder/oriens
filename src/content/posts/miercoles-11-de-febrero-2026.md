@@ -29,11 +29,13 @@ en las hileras de alfalfas
 de las venas del cuello,   
 y en esos hoyuelos.
 
-Si no logro adaptarme,   
-que me arroben convulsiones   
-en las honduras del suelo  
-que se está desmenuzando;  
-motas violáceas;   
-racimos larvarios;   
-y toques mi yugular diciendo:   
-—¿el pulso? No lo capto.  
+Si no logro adaptarme,
+quítame el alfiler,
+que me arroben aleteos
+en las honduras del suelo;
+digan convulsiones:
+me estoy desmenuzando.
+Motas violáceas,
+racimos larvarios;
+y que toques mi yugular diciendo:
+—¿el pulso? No lo capto.

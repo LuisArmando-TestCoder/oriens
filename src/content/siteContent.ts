@@ -7,7 +7,7 @@ export const siteContent = {
     og: {
       title: "Aba Oriens | Poética Orgánica e Ingeniería Creativa",
       description: "Explora la obra de Aba Oriens y el portafolio técnico de Luis Murillo Baltodano. Fusión de literatura experimental y tecnología creativa.",
-      url: "https://oriens.aiban.news",
+      url: "https://aiexecutions.com/",
       image: "/1.jpeg",
     }
   },
