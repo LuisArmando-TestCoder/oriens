@@ -4,7 +4,7 @@ date: "2026-03-22"
 excerpt: "Nobody, Nobody"
 ---
 
-La primera vez que escuché "Nobody, Nobody", yo era como "Eleanor Rigby", las personas me estaban viendo; yo era como Nemo Nobody intendo decidirse; yo era como Harry Haller, aunque yo era mi propio Armando.
+La primera vez que escuché "Nobody, Nobody", yo era como "Eleanor Rigby", las personas me estaban viendo porque Paul McCartney me señalaba con un dedo; yo era como Nemo Nobody intendo decidirse; yo era como Harry Haller, aunque yo era mi propio Armando.
 
 ### My God, I'm so lonely, so I open the window
 ### To hear sounds of people
