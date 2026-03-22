@@ -6,26 +6,26 @@ excerpt: "Nobody, Nobody"
 
 La primera vez que escuché "Nobody, Nobody", yo era como "Eleanor Rigby", las personas me estaban viendo; yo era como Nemo Nobody intendo decidirse entre ambos; yo era como Harry Haller, aunque yo era mi propio Armando.
 
-My God, I'm so lonely, so I open the window
-To hear sounds of people
-To hear sounds of people.
+### My God, I'm so lonely, so I open the window
+### To hear sounds of people
+### To hear sounds of people.
 
 La segunda vez, ella salió del cuarto y se sentó a mi lado, mermando la paciencia del otro, yo fingía no estar reconfortado. Él lo sabía, ella lo sabía, y yo lo sabía. Él puso a todo volumen:
 
-Venus, planet of love, was destroyed by global warming
-Did its people want too much, too?
-Did its people want too much?
+### Venus, planet of love, was destroyed by global warming
+### Did its people want too much, too?
+### Did its people want too much?
 
 Y ella fue a reconfortarlo. 
 
 La tercera vez yo estaba con él y con miles de personas más alrededor, todos teníamos los párpados embarrados de lodo, nos dijeron "vayan, lavénse los ojos en el estanque de Siloé", y al restregarnos al unísono, la niebla se hizo azul y la silueta en la orilla se hizo densa, y el conciertos de trinos nos estaba ensordeciendo; un sentido por otro. Estábamos lejos de ella, y yo, además de él, no quería a nadie más al lado mío. Era primavera, Primavera Sound. Y todos cantamos.
 
-And I don't want your pity, I just want somebody near me
-Guess I'm a coward, I just want to feel alright
+### And I don't want your pity, I just want somebody near me
+### Guess I'm a coward, I just want to feel alright
 
 En ese trío todo era mejor. Antes era ella, él y yo, era tan bueno porque era un triángulo. Y ahora, ¿quién escucha esa canción? 
 
-And I know no one will save me, I just need someone to kiss
-Give me one good honest kiss and I'll be alright
+### And I know no one will save me, I just need someone to kiss
+### Give me one good honest kiss and I'll be alright
 
 Nobody, nobody.
