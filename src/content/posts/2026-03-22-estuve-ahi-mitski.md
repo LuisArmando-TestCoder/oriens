@@ -18,7 +18,7 @@ La segunda vez, ella salió del cuarto y se sentó a mi lado, mermando la pacien
 
 Y ella fue a reconfortarlo. 
 
-La tercera vez yo estaba con él y con miles de personas más alrededor, todos teníamos los párpados embarrados de lodo, nos dijeron "vayan, lavénse los ojos en el estanque de Siloé", y al restregarnos al unísono, la niebla se hizo azul y la silueta en la orilla se hizo densa, y el conciertos de trinos nos estaba ensordeciendo; un sentido por otro. Estábamos lejos de ella, y yo, además de él, no quería a nadie más al lado mío. Era primavera, Primavera Sound. Y todos cantamos.
+La tercera vez yo estaba con él y con miles de personas más alrededor, todos teníamos los párpados embarrados de lodo, nos dijeron "vayan, lavénse los ojos en el estanque de Siloé", y al restregarnos, al unísono, la niebla se hizo azul y la silueta en la orilla se hizo densa, y el conciertos de trinos nos estaba ensordeciendo; un sentido por otro. Estábamos lejos de ella, y yo, además de él, no quería a nadie más al lado mío. Era primavera, Primavera Sound. Y todos cantamos.
 
 ### And I don't want your pity, I just want somebody near me
 ### Guess I'm a coward, I just want to feel alright
