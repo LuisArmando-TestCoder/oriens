@@ -23,7 +23,7 @@ La tercera vez yo estaba con él y con miles de personas más alrededor, todos t
 ### And I don't want your pity, I just want somebody near me
 ### Guess I'm a coward, I just want to feel alright
 
-En ese trío todo era mejor. Antes era ella, él y yo. Dicen que tres es multitud, y si nunca llegó a serlo, entonces no fue un trío, era un triángulo. 
+En ese trío todo era mejor. Antes; ella, él y yo. Dicen que tres es multitud, y si nunca llegó a serlo, entonces no fue un trío, era un triángulo. 
 
 ### And I know no one will save me, I just need someone to kiss
 ### Give me one good honest kiss and I'll be alright
