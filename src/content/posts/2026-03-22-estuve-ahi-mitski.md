@@ -10,7 +10,7 @@ La primera vez que escuché "Nobody, Nobody", yo era como "Eleanor Rigby", las p
 ### To hear sounds of people
 ### To hear sounds of people.
 
-La segunda vez, ella salió del cuarto y se sentó a mi lado, mermando la paciencia del otro, yo fingía no estar reconfortado. Él lo sabía, ella lo sabía, y yo lo sabía. Él puso a todo volumen:
+La segunda vez, ella salió del cuarto y se sentó a mi lado, mermando la paciencia del otro. Yo fingía no estar reconfortado. Él lo sabía, ella lo sabía, y yo lo sabía. Él puso a todo volumen:
 
 ### Venus, planet of love, was destroyed by global warming
 ### Did its people want too much, too?
