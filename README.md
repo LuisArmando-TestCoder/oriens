@@ -1,5 +1,20 @@
 This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
 
+## Post
+
+With arguments:
+
+```bash
+deno run --allow-write --allow-read scripts/create_post.ts --title "My New Post" --content "This is the content of my post which will be used for the excerpt."
+```
+
+Without arguments (creates an empty template):
+
+```bash
+deno run --allow-write --allow-read scripts/create_post.ts
+```
+
+
 ## Getting Started
 
 First, run the development server:
