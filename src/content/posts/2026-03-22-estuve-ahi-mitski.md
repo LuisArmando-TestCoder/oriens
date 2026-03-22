@@ -23,4 +23,9 @@ La tercera vez yo estaba con él y con miles de personas más alrededor, todos t
 And I don't want your pity, I just want somebody near me
 Guess I'm a coward, I just want to feel alright
 
-En ese trío todo era mejor. Antes era ella, él y yo, era tan buen trío, era un triángulo. Y ahora, ¿quién escucha esa canción? Nobody, nobody.
+En ese trío todo era mejor. Antes era ella, él y yo, era tan bueno porque era un triángulo. Y ahora, ¿quién escucha esa canción? 
+
+And I know no one will save me, I just need someone to kiss
+Give me one good honest kiss and I'll be alright
+
+Nobody, nobody.
