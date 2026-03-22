@@ -4,10 +4,23 @@ date: "2026-03-22"
 excerpt: "Nobody, Nobody"
 ---
 
-La primera vez, lo único que escuché fue "Nobody, Nobody". No sé si fue que me recordó a eso que sentía cuando escuchaba "Eleanor Rigby".
+La primera vez que escuché "Nobody, Nobody", no sabía que ellos estaban juntos, y yo era como "Eleanor Rigby", o como Harry Haller, pero yo era mi propio Armando.
 
-La segunda vez, ella salió del cuarto de su pareja y se sentó a mi lado, como si solo quisiera estar ahí y gastar el tiempo. Fingía que no me reconfortaba su presencia. Él lo sabía, ella lo sabía, y yo lo sabía, pero éramos niños. Él, después de unos... lo que sea, puso a sonar la misma canción "Nobody Nobody", y ella se fue. 
+My God, I'm so lonely, so I open the window
+To hear sounds of people
+To hear sounds of people.
 
-La tercera vez yo estaba con él y con miles de personas a nuestro alrededor. Y el aire era azul y la silueta era densa. Estábamos lejos de ella. ¿De quién? Nobody, nobody. 
+La segunda vez, ella salió del cuarto y se sentó a mi lado, mermando la paciencia del otro, yo fingía que no estar reconfortado. Él lo sabía, ella lo sabía, y yo lo sabía. Él puso a todo volumen:
 
-En ese trío, todo era mejor. Antes era ella, él y yo. Siempre dos juntos, pero nunca los tres al mismo tiempo. Por eso era un buen trío, porque no era un trío. Era un triángulo. Y ahora, ¿quién escucha esa canción? Nobody, nobody. 
+Venus, planet of love, was destroyed by global warming
+Did its people want too much, too?
+Did its people want too much?
+
+Y ella fue a reconfortarlo. 
+
+La tercera vez yo estaba con él y con miles de personas a nuestro alrededor, todos teníamos los párpados embarrados de lodo, nos dijeron "vayan, lavénse los ojos en el estanque de Siloé", y al restregarnos al unísono, la niebla se hizo azul y la silueta en la orilla se hizo densa. Estábamos lejos de ella, y yo, además de él, no quería a nadie más al lado mío. Era primavera, Primavera Sound. Y todos cantamos.
+
+And I don't want your pity, I just want somebody near me
+Guess I'm a coward, I just want to feel alright
+
+En ese trío todo era mejor. Antes era ella, él y yo, era tan buen trío, era un triángulo. Y ahora, ¿quién escucha esa canción? Nobody, nobody.
