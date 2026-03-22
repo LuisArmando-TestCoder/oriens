@@ -1,7 +1,7 @@
 ---
 title: "Estuve ahi, Mitski"
 date: "2026-03-22"
-excerpt: ""
+excerpt: "Nobody, Nobody"
 ---
 
 La primera vez, lo único que escuché fue "Nobody, Nobody". No sé si fue que me recordó a eso que sentía cuando escuchaba "Eleanor Rigby".
