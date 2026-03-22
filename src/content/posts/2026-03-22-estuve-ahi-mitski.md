@@ -4,7 +4,7 @@ date: "2026-03-22"
 excerpt: ""
 ---
 
-La primera vez, lo único que escuché fue "Nobody". No sé si fue que me recordó a eso que sentía cuando escuchaba "Eleanor Rigby".
+La primera vez, lo único que escuché fue "Nobody, Nobody". No sé si fue que me recordó a eso que sentía cuando escuchaba "Eleanor Rigby".
 
 La segunda vez, ella salió del cuarto de su pareja y se sentó a mi lado, como si solo quisiera estar ahí y gastar el tiempo. Me sentía como si me reconfortara su presencia. Él lo sabía, y yo lo sabía, y ella lo sabía, pero éramos niños. Él, después de unos, lo que sea, puso a sonar la misma canción "Nobody Nobody", y ella se fue. 
 
