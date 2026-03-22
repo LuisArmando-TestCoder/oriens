@@ -1,5 +1,5 @@
 ---
-title: "Estuve ahí #1"
+title: "Estuve ahí, Wendy"
 date: "2026-03-22"
 excerpt: "Cuando la escuché, se dibujó una línea divisoria"
 ---
