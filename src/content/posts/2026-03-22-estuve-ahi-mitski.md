@@ -28,4 +28,3 @@ En ese trío todo era mejor. Antes; ella, él y yo. Dicen que tres es multitud, 
 (Dibuja un triángulo en el aire, y hazlo sonar con la canción)
 
 ### And I know no one will save me, I just need someone to kiss
-### Give me one good honest kiss and I'll be alright
