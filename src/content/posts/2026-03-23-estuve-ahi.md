@@ -14,6 +14,21 @@ y ya no sirve lo que aprendimos.
 
 En ese trío todo era mejor, porque era un triángulo.
 
+Ella 
+salió del cuarto 
+y se sentó a mi lado, 
+mermando la paciencia del otro. 
+
+Yo fingía no estar reconfortado. 
+Él lo sabía, 
+ella lo sabía, 
+y yo me hacía el tonto. 
+
+Él, 
+desbordándose de la puerta, 
+al otro lado, 
+y ella fue a reconfortarlo.
+
 Teníamos los párpados embarrados, 
 nos dijeron "vayan, lavénse los ojos", 
 y al restregarnos, al unísono, 
@@ -23,7 +38,7 @@ y el concierto de trinos ensordecía;
 un sentido por otro, uno por otro. 
 Estábamos lejos de ella, 
 y yo, además de él, 
-no quería a nadie más al lado mío.
+no quería a nadie más a mi derecha.
 
 ### My God, I'm so lonely, so I open the window
 ### To hear sounds of people
