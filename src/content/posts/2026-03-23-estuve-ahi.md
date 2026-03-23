@@ -30,6 +30,14 @@ desbordándose de la puerta,
 al otro lado, 
 y ella fue a reconfortarlo.
 
+### My God, I'm so lonely, 
+### so I open the window
+### To hear sounds of people
+### To hear sounds of people.
+
+Y de pronto, primavera,
+Primavera Sound al final del Mundo.
+
 Teníamos los párpados embarrados, 
 nos dijeron "vayan, lavénse los ojos", 
 y al restregarnos, al unísono, 
@@ -40,11 +48,6 @@ un sentido por otro, uno por otro.
 Estábamos lejos de ella, 
 y yo, además de él, 
 no quería a nadie más a mi derecha.
-
-### My God, I'm so lonely, 
-### so I open the window
-### To hear sounds of people
-### To hear sounds of people.
 
 ### Venus, planet of love, 
 ### was destroyed by global warming
