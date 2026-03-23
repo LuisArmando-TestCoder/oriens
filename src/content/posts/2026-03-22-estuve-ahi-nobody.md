@@ -18,7 +18,7 @@ porque era un triángulo.
 Ella 
 salió del cuarto 
 y se sentó a mi lado, 
-mermando la paciencia del otro. 
+la paciencia del otro, mermando. 
 
 Yo fingía no estar reconfortado. 
 Él lo sabía, 
