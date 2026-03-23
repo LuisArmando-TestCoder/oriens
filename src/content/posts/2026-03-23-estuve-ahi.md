@@ -41,10 +41,12 @@ Estábamos lejos de ella,
 y yo, además de él, 
 no quería a nadie más a mi derecha.
 
-### My God, I'm so lonely, so I open the window
+### My God, I'm so lonely, 
+### so I open the window
 ### To hear sounds of people
 ### To hear sounds of people.
 
-### Venus, planet of love, was destroyed by global warming
+### Venus, planet of love, 
+### was destroyed by global warming
 ### Did its people want too much, too?
 ### Did its people want too much?
