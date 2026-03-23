@@ -45,9 +45,8 @@ la niebla se hizo azul,
 la silueta en la orilla se hizo densa, 
 y el concierto de trinos se hizo sordo; 
 y un sentido por otro, uno por otro,
-estábamos lejos de ella, 
-y yo, además de él, 
-no quería a nadie más a mi derecha.
+estábamos lejos de aquella persona, 
+y yo, no quería a nadie más a mi derecha.
 
 ### Venus, planet of love, 
 ### was destroyed by global warming
