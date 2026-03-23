@@ -1,6 +1,6 @@
 ---
 title: "Estuve ahi, Nobody"
-date: "2026-03-23"
+date: "2026-03-22"
 excerpt: "Triángulos, Mitsky, Nobody, Eleanor Rigby"
 ---
 

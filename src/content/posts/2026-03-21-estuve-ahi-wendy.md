@@ -1,6 +1,6 @@
 ---
 title: "Estuve ahí, Wendy"
-date: "2026-03-22"
+date: "2026-03-21"
 excerpt: "Cuando la escuché, se dibujó una línea divisoria"
 ---
 
