@@ -43,9 +43,9 @@ nos dijeron "vayan, lavénse los ojos",
 y al restregarnos, al unísono, 
 la niebla se hizo azul 
 y la silueta en la orilla se hizo densa, 
-y el concierto de trinos ensordecía; 
-un sentido por otro, uno por otro. 
-Estábamos lejos de ella, 
+y el concierto de trinos se hizo sordo; 
+y un sentido por otro, uno por otro,
+estábamos lejos de ella, 
 y yo, además de él, 
 no quería a nadie más a mi derecha.
 
