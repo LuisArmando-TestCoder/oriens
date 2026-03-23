@@ -35,7 +35,7 @@ y ella fue a reconfortarlo.
 ### To hear sounds of people
 ### To hear sounds of people.
 
-Y de pronto, primavera,
+Y de pronto... primavera.
 Primavera Sound al final del Mundo.
 
 Teníamos los párpados embarrados, 
