@@ -41,8 +41,8 @@ Primavera Sound al final del Mundo.
 Teníamos los párpados embarrados, 
 nos dijeron "vayan, lavénse los ojos", 
 y al restregarnos, al unísono, 
-la niebla se hizo azul 
-y la silueta en la orilla se hizo densa, 
+la niebla se hizo azul,
+la silueta en la orilla se hizo densa, 
 y el concierto de trinos se hizo sordo; 
 y un sentido por otro, uno por otro,
 estábamos lejos de ella, 
