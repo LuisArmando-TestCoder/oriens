@@ -1,6 +1,6 @@
 ---
 title: "Medusas y Utopía"
-date: "2026-13-03"
+date: "2026-03-13"
 excerpt: "Me dijeron que escribiera un poema en veinte minutos acerca de Medusas y Utopías, mientras todos escribían sus propias versiones."
 ---
 
