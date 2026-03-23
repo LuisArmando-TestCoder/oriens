@@ -26,8 +26,8 @@ ella lo sabía,
 y yo me hacía el tonto. 
 
 Él, 
-desbordándose de la puerta, 
 al otro lado, 
+desbordándose de la puerta, 
 y ella fue a reconfortarlo.
 
 ### My God, I'm so lonely, 
