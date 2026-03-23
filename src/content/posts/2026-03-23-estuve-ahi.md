@@ -1,7 +1,7 @@
 ---
-title: "Estuve ahi"
+title: "Estuve ahi, Nobody"
 date: "2026-03-23"
-excerpt: ""
+excerpt: "Triángulos, Mitsky, Nobody, Eleanor Rigby"
 ---
 
 Triángulos, Mitsky, Nobody, Eleanor Rigby, 
