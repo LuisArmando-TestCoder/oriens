@@ -4,16 +4,13 @@ date: "2026-03-23"
 excerpt: ""
 ---
 
-Triángulos, Mitsky, Nobody, Eleanor Rigby, 
-I hate Paul McCartney for telling them to look at me.
+En ese trío todo era mejor, 
+porque era un triángulo.
 
-Mr. Nobody, él o ella, escoger ambos, 
+Él o ella, escoger ambos, 
 Harry Haller no está aquí,
 y Armanda ahora es hombre, 
 y ya no sirve lo que aprendimos.
-
-En ese trío todo era mejor, 
-porque era un triángulo.
 
 Ella 
 salió del cuarto 
@@ -40,6 +37,16 @@ un sentido por otro, uno por otro.
 Estábamos lejos de ella, 
 y yo, además de él, 
 no quería a nadie más a mi derecha.
+
+Triángulos, Mitsky, Nobody, Eleanor Rigby, 
+I hate Paul McCartney for telling them to look at me.
+
+---
+
+Triángulos, Mitsky, Nobody, Eleanor Rigby, 
+I hate Paul McCartney for telling them to look at me.
+
+Mr. Nobody.
 
 ### My God, I'm so lonely, so I open the window
 ### To hear sounds of people
