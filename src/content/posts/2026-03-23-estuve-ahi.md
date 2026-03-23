@@ -12,7 +12,8 @@ Harry Haller no está aquí,
 y Armanda ahora es hombre, 
 y ya no sirve lo que aprendimos.
 
-En ese trío todo era mejor, porque era un triángulo.
+En ese trío todo era mejor, 
+porque era un triángulo.
 
 Ella 
 salió del cuarto 
