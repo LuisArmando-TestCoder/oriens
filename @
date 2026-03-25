@@ -1,0 +1,73 @@
+import { NextResponse } from 'next/server';
+import type { NextRequest } from 'next/server';
+import { Ratelimit } from '@upstash/ratelimit';
+import { Redis } from '@upstash/redis';
+
+// Note: Upstash requires UPSTASH_REDIS_REST_URL and UPSTASH_REDIS_REST_TOKEN env vars.
+// If not configured, we fail open (allow all traffic) gracefully.
+
+let ratelimit: Ratelimit | null = null;
+
+if (process.env.UPSTASH_REDIS_REST_URL && process.env.UPSTASH_REDIS_REST_TOKEN) {
+  const redis = new Redis({
+    url: process.env.UPSTASH_REDIS_REST_URL,
+    token: process.env.UPSTASH_REDIS_REST_TOKEN,
+  });
+
+  ratelimit = new Ratelimit({
+    redis,
+    limiter: Ratelimit.slidingWindow(60, '1 m'), // 60 req per minute per IP
+    analytics: true,
+  });
+}
+
+export async function middleware(request: NextRequest) {
+  // Skip static assets
+  if (
+    request.nextUrl.pathname.startsWith('/_next') ||
+    request.nextUrl.pathname.startsWith('/static') ||
+    request.nextUrl.pathname.includes('.')
+  ) {
+    return NextResponse.next();
+  }
+
+  // If Upstash is not configured, pass through (fail open)
+  if (!ratelimit) {
+    return NextResponse.next();
+  }
+
+  const ip = (request as any).ip || request.headers.get('x-forwarded-for') || 'anonymous';
+
+  try {
+    const { success, limit, remaining, reset } = await ratelimit.limit(ip);
+
+    if (!success) {
+      return new NextResponse(
+        JSON.stringify({ error: 'Demasiadas solicitudes. Por favor, espera un momento.' }),
+        {
+          status: 429,
+          headers: {
+            'content-type': 'application/json',
+            'X-RateLimit-Limit': limit.toString(),
+            'X-RateLimit-Remaining': remaining.toString(),
+            'X-RateLimit-Reset': reset.toString(),
+            'Retry-After': Math.ceil((reset - Date.now()) / 1000).toString(),
+          },
+        }
+      );
+    }
+
+    const response = NextResponse.next();
+    response.headers.set('X-RateLimit-Limit', limit.toString());
+    response.headers.set('X-RateLimit-Remaining', remaining.toString());
+    return response;
+  } catch (error) {
+    // Fail open — never block traffic due to a rate limit service error
+    console.error('Rate limit middleware error:', error);
+    return NextResponse.next();
+  }
+}
+
+export const config = {
+  matcher: ['/((?!_next/static|_next/image|favicon.ico).*)'],
+};
