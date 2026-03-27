@@ -4,6 +4,7 @@ date: "2026-03-22"
 excerpt: "Escucho el ritmo con el que bromean"
 ---
 
+La veo con él y me digo: evítala.
 Escucho el ritmo con el que bromean, 
 esa fluidez con la que uno, el lead, 
 y el otro, el ritmo, son complementarios, 
