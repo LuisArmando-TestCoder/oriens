@@ -41,7 +41,7 @@ Y de pronto... primavera.
 Primavera Sound al final del Mundo.
 
 Alex Turner se paseaba por el escenario,
-y su fan número uno me miraba fijamente, 
+y a mi lado, me miraba, su fan número uno, 
 focos avellana, pliegues epicánticos,
 y pensé: "quizá la peña de ese verde
 me saque de la frente esta rueda iris doble marrón oscuro".
