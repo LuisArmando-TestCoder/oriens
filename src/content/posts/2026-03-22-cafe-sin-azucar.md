@@ -40,7 +40,7 @@ con eyeliner, como:
 Y de pronto... primavera.
 Primavera Sound al final del Mundo.
 
-Alex Turner se paseaba por el escenario 
+Alex Turner se paseaba por el escenario,
 y su fan número uno me miraba fijamente, 
 focos avellana, pliegues epicánticos,
 y pensé: "quizá la peña de ese verde
