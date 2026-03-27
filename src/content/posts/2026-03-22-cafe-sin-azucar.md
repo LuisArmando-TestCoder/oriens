@@ -22,7 +22,7 @@ y él prendiendo un marlboro, se cierra la puerta,
 y ella, paspartú sin emulsión de cuartooscuro vaporoso, 
 se sentaba como hoja de la fronda 
 hasta la sombra de este tronco, 
-y decía: ¿hay en mí una foto?
+y decía: ¿ves en mí el negativo?
 
 Él lo presentía, yo me hacía el tonto, 
 homie, date cuenta;
