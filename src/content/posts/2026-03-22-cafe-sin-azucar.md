@@ -1,7 +1,7 @@
 ---
 title: "Café sin Azúcar"
 date: "2026-03-22"
-excerpt: "Escucho el ritmo con el que bromean"
+excerpt: "La veo con él y me digo: evítala"
 ---
 
 La veo con él y me digo: evítala.
