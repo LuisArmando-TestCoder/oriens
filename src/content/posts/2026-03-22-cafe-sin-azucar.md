@@ -33,10 +33,10 @@ homie, date cuenta;
 y ella me miraba con ojos de jaguar,
 con eyeliner, con esos ojos chinos, como:
 
-一个 (Yī gè)
+一个 (Yí gè)
 女人 (nǚrén)
 在看 (zài kàn)
-一只 (yī zhī)
+一只 (yí zhī)
 狗   (gǒu)
 
 Y de pronto... primavera.
