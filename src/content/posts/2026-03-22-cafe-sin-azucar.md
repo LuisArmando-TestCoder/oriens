@@ -40,9 +40,11 @@ con eyeliner, como:
 Y de pronto... primavera.
 Primavera Sound al final del Mundo.
 
-Alex Turner se paseaba por el escenario,
+Se paseaba un fulano por el escenario,
 y a mi lado, me miraba, su fan número uno, 
 focos avellana, pliegues epicánticos,
+como pintada por William Bouguereau,
+protegida del ostracismo,
 y pensé: "quizá la peña de ese verde
 me saque de la frente esta rueda iris doble marrón oscuro".
 Pero ante el café sin azúcar, 
