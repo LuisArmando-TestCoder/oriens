@@ -35,7 +35,7 @@ con eyeliner, ojos chinos, como:
 
 一名 (Yī míng) 
 中国 (zhōngguó) 
-男子 (nánzǐ) 
+女子 (nǚzǐ) 
 正在 (zhèngzài) 
 看狗。(kàn gǒu)
 
