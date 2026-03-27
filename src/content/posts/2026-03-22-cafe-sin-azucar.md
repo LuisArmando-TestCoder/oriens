@@ -31,7 +31,7 @@ y decía: ¿ves en mí el negativo?
 homie, date cuenta;
 él le besaba el cuello 
 y ella me miraba con ojos de jaguar,
-con eyeliner, ojos chinos, como:
+con eyeliner, con esos ojos chinos, como:
 
 一名 (Yī míng) 
 中国 (zhōngguó) 
