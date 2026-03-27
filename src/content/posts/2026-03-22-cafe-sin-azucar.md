@@ -31,11 +31,13 @@ y decía: ¿ves en mí el negativo?
 homie, date cuenta;
 él le besaba el cuello 
 y ella me miraba con ojos de jaguar,
-con eyeliner, como:
+con eyeliner, ojos chinos, como:
 
-一个人 (Yī gè rén)
-在看着 (zài kànzhe)
-狗 (gǒu)
+一名 (Yī míng) 
+中国 (zhōngguó) 
+男子 (nánzǐ) 
+正在 (zhèngzài) 
+看狗。(kàn gǒu)
 
 Y de pronto... primavera.
 Primavera Sound al final del Mundo.
