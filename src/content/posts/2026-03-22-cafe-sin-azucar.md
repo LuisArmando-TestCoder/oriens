@@ -36,7 +36,7 @@ con eyeliner, con esos ojos chinos, como:
 一个 (Yí gè)
 女人 (nǚrén)
 在看 (zài kàn)
-一只 (yí zhī)
+一只 (yì zhī)
 狗   (gǒu)
 
 Y de pronto... primavera.
