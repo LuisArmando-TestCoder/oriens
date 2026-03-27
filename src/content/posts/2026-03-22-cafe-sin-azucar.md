@@ -34,8 +34,7 @@ y ella me miraba con ojos de jaguar,
 con eyeliner, con esos ojos chinos, como:
 
 一名 (Yī míng) 
-中国 (zhōngguó) 
-女子 (nǚzǐ) 
+\女子 (nǚzǐ) 
 正在 (zhèngzài) 
 看狗。(kàn gǒu)
 
