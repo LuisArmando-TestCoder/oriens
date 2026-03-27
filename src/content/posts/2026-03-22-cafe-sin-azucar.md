@@ -43,6 +43,6 @@ focos avellana, pliegues epicánticos,
 y pensé: "quizá la peña de ese verde
 me saque de la frente esta rueda iris doble marrón oscuro".
 Pero ante el café sin azúcar, 
-los ojos hazel son rasgo un recesivo,
+los ojos hazel son un rasgo recesivo,
 y aquellos dominantes
 cómo los consumo.
