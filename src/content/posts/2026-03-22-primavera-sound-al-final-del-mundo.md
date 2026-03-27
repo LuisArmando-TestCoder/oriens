@@ -1,7 +1,7 @@
 ---
-title: "Nobody"
+title: "Primavera Sound al Final del Mundo"
 date: "2026-03-22"
-excerpt: "Mitski"
+excerpt: "Escucho el ritmo con el que bromean"
 ---
 
 Escucho el ritmo con el que bromean, 
