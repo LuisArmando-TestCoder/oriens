@@ -6,9 +6,10 @@ excerpt: "Escucho el ritmo con el que bromean"
 
 Escucho el ritmo con el que bromean, 
 esa fluidez con la que uno, el lead, 
-y el otro, el ritmo, son homógrafos, 
+y el otro, el ritmo, son complementarios, 
 pero hay una disonancia entre ambos, 
 a tientas sus registros, 
+son homógrafos,
 como un agravio de Rimbaud 
 en un cartel corporativo,
 propaganda punk en un quinto cumpleaños, 
