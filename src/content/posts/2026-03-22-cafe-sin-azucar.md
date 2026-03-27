@@ -16,7 +16,7 @@ en un cartel corporativo,
 Charles Bukowski en "Make a Wish"
 para darle esperanza a una niña con cáncer,
 propaganda punk en su quinto cumpleaños, 
-conciencia de clase, apenas empezando,
+conciencia de clase, para alguien inocente,
 y el ego clamando estar vacío está lleno de egoísmo;
 texturas tonales con hedor a transitivo 
 encajado a la fuerza sujetos sabor a vigilia, 
