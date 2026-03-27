@@ -43,8 +43,8 @@ Primavera Sound al final del Mundo.
 Se paseaba un fulano por el escenario,
 y a mi lado, me miraba, su fan número uno, 
 focos avellana, pliegues epicánticos,
-como pintada por William Bouguereau,
-protegida del ostracismo,
+como pintada por William Bouguereau 
+y Klimt al mismo tiempo,
 y pensé: "quizá la peña de ese verde
 me saque de la frente 
 esta rueda iris doble marrón oscuro".
