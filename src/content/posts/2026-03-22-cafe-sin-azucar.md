@@ -13,7 +13,9 @@ son homógrafos,
 a tientas sus registros, 
 como un agravio de Rimbaud 
 en un cartel corporativo,
-propaganda punk en un quinto cumpleaños, 
+Charles Bukowski en Make a Wish
+para darle esperanza a una niña con cáncer,
+y propaganda punk en su quinto cumpleaños, 
 conciencia de clase, apenas empezando,
 y el ego clamando estar vacío está lleno de egoísmo;
 texturas tonales con hedor a transitivo 
