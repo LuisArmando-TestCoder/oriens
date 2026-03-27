@@ -9,7 +9,7 @@ Escucho el ritmo con el que bromean,
 esa fluidez con la que uno, el lead, 
 y el otro, el ritmo, son complementarios, 
 pero hay una disonancia entre ambos, 
-un desfase disimulado, son homógrafos,
+un desfase homógrafo,
 a tientas sus registros, 
 como un agravio de Rimbaud 
 en un cartel corporativo,
