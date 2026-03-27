@@ -1,12 +1,12 @@
 ---
-title: "Primavera Sound al Final del Mundo"
+title: "Café sin Azúcar"
 date: "2026-03-22"
 excerpt: "Escucho el ritmo con el que bromean"
 ---
 
 Escucho el ritmo con el que bromean, 
 esa fluidez con la que uno, el lead, 
-y el otro, el ritmo, son complementarios, 
+y el otro, el ritmo, son homógrafos, 
 pero hay una disonancia entre ambos, 
 a tientas sus registros, 
 como un agravio de Rimbaud 
