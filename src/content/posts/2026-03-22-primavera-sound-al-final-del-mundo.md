@@ -15,7 +15,7 @@ propaganda punk en un quinto cumpleaños,
 conciencia de clase, apenas empezando,
 y el ego clamando estar vacío está lleno de egoísmo;
 texturas tonales con hedor a transitivo 
-encajado a la fuerza entre sujetos sabor a vigilia, 
+encajado a la fuerza sujetos sabor a vigilia, 
 ese aire de sauna cuando abrían la jaula y ella salía, 
 y él prendiendo un marlboro, se cierra la puerta, 
 y ella, paspartú sin emulsión de cuartooscuro vaporoso, 
