@@ -17,10 +17,12 @@ Charles Bukowski en "Make a Wish"
 frente a una niña con cáncer;
 propaganda punk en un quinto cumpleaños, 
 conciencia de clase apenas empezando;
-y el ego que clama estar vacío está lleno de egoísmo,
+y el ego que clama estar vacío 
+está lleno de egoísmo,
 como el que dice "soy humilde";
 texturas tonales con hedor a transitivo 
-encajado a la fuerza, sujetos sabor a vigilia, 
+encajando a la fuerza
+sujetos sabor a vigilia, 
 ese aire de sauna cuando abrían la jaula y ella salía, 
 y él prendiendo un marlboro, se cierra la puerta, 
 y ella, paspartú sin emulsión de cuartooscuro vaporoso, 
