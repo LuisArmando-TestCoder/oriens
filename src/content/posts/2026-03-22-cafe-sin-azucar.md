@@ -5,9 +5,8 @@ excerpt: "La veo con él y me digo: evítala"
 ---
 
 La veo con él y me digo: evítala.
-Escucho el ritmo con el que bromean, 
-esa fluidez con la que uno, el lead, 
-y el otro, el armónico, se compleementan, 
+Escucho la consonancia con el que bromean, 
+esa fluidez entre el lead y el armónico, 
 pero hay una disonancia, 
 son homógrafos,
 sus registros a tientas, 
