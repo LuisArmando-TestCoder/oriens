@@ -30,9 +30,9 @@ me abrazaba restregándose y diciéndome al oído:
 Él lo presentía, yo me hacía el tonto, 
 homie, date cuenta;
 él besaba el cuello,
-ella me miraba con ojos de jaguar,
+ella me miraba como te mira un jaguar cuando estás desnudo,
 él de espaldas no lo estaba viendo,
-ella con eyeliner y esos ojos chinos:
+ella con eyeliner y ojos chinos:
 
 一个 (Yí gè)
 女人 (nǚrén)
@@ -51,8 +51,6 @@ y Klimt al mismo tiempo,
 y pensé: "quizá la peña de ese verde
 me saque de la frente 
 esta rueda iris doble marrón oscuro",
-aquellos dominantes
-cómo los consumo;
+y aquellos dominantes, cómo los consumo;
 pero ante el café sin azúcar,
-dormitantes,
-los ojos hazel son un rasgo recesivo.
+los iris hazel son un rasgo recesivo.
