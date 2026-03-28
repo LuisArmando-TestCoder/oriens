@@ -51,7 +51,7 @@ y Klimt al mismo tiempo,
 y pensé: "quizá la peña de ese verde
 me saque de la frente 
 esta rueda iris doble marrón oscuro",
-y cómo lo consumo; 
-dominante, 
-el café sin azúcar
-hace al iris hazel un rasgo recesivo.
+y cómo lo consumo.
+
+Mi café sin azúcar,
+haces al hazel recesivo.
