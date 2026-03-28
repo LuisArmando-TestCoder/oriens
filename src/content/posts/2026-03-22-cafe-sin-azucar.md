@@ -24,7 +24,8 @@ y él prendiendo un marlboro, se cierra la puerta,
 y ella, paspartú sin emulsión de cuartooscuro vaporoso, 
 se sentaba como hoja de la fronda 
 hasta la sombra de este tronco, 
-me abrazaba diciendo: ¿ves mi negativo?
+me abrazaba restregándose y diciéndome al oído: 
+¿ves mi negativo?
 
 Él lo presentía, yo me hacía el tonto, 
 homie, date cuenta;
