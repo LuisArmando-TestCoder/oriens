@@ -16,9 +16,6 @@ Charles Bukowski en "Make a Wish"
 frente a una niña con cáncer;
 propaganda punk en un quinto cumpleaños, 
 conciencia de clase apenas empezando;
-y el ego que clama estar vacío 
-está lleno de egoísmo,
-como el que dice "soy humilde";
 texturas tonales con hedor a transitivo 
 encajando a la fuerza
 sujetos sabor a vigilia, 
