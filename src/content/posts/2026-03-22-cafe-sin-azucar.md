@@ -51,6 +51,6 @@ y Klimt al mismo tiempo,
 y pensé: "quizá la peña de ese verde
 me saque de la frente 
 esta rueda iris doble marrón oscuro",
-y aquellos dominantes, cómo los consumo;
+y cómo los consumo, aquellos dominantes;
 pero ante el café sin azúcar,
 los iris hazel son un rasgo recesivo.
