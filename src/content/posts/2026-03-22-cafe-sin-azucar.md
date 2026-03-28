@@ -21,7 +21,7 @@ encajando a la fuerza
 sujetos sabor a vigilia, 
 ese aire de sauna cuando abrían la jaula y ella salía, 
 y él prendiendo un marlboro, se cierra la puerta, 
-y ella, paspartú sin emulsión de vaporoso cuartooscuro, 
+y ella, paspartú sin emulsión de cuartooscuro vaporoso, 
 se sentaba como hoja de la fronda 
 hasta la sombra de este tronco, 
 me abrazaba diciendo: ¿ves mi negativo?
