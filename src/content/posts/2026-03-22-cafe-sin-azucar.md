@@ -25,12 +25,12 @@ y él prendiendo un marlboro, se cierra la puerta,
 y ella, paspartú sin emulsión de cuartooscuro vaporoso, 
 se sentaba como hoja de la fronda 
 hasta la sombra de este tronco, 
-y decía: ¿ves en mí el negativo?
+me abrazaba diciendo: ¿ves en mí el negativo?
 
 Él lo presentía, yo me hacía el tonto, 
 homie, date cuenta;
 él le besaba el cuello 
-y ella me miraba con ojos de jaguar,
+ella me miraba con ojos de jaguar,
 con eyeliner, con esos ojos chinos, como:
 
 一个 (Yí gè)
