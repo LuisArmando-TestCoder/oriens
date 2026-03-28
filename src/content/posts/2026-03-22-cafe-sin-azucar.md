@@ -6,9 +6,9 @@ excerpt: "La veo con él y me digo: evítala"
 
 La veo con él y me digo: evítala.
 Escucho la consonancia con la que bromean, 
-esa fluidez entre el lead y el armónico, 
-pero hay una disonancia, 
-son homógrafos,
+fluyen el lead y el armónico, 
+pero entre broma y broma la verdad...?
+Hay una disonancia, son homógrafos,
 sus registros a tientas, 
 como un agravio de Rimbaud 
 en un cartel corporativo,
