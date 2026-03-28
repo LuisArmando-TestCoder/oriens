@@ -14,10 +14,11 @@ a tientas sus registros,
 como un agravio de Rimbaud 
 en un cartel corporativo,
 Charles Bukowski en "Make a Wish", peinado
-para darle esperanza a una niña con cáncer,
-propaganda punk en su quinto cumpleaños, 
-conciencia de clase para alguien inocente,
-y el ego clamando estar vacío está lleno de egoísmo;
+para darle esperanza a una niña con cáncer;
+propaganda punk en un quinto cumpleaños, 
+conciencia de clase apenas empezando;
+y el ego que clama estar vacío está lleno de egoísmo,
+como el que dice "soy humilde";
 texturas tonales con hedor a transitivo 
 encajado a la fuerza sujetos sabor a vigilia, 
 ese aire de sauna cuando abrían la jaula y ella salía, 
