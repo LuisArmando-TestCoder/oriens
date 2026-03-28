@@ -29,9 +29,10 @@ me abrazaba diciendo: ¿ves en mí el negativo?
 
 Él lo presentía, yo me hacía el tonto, 
 homie, date cuenta;
-él le besaba el cuello 
+él le besaba el cuello,
 ella me miraba con ojos de jaguar,
-con eyeliner, con esos ojos chinos, como:
+él de espaldas no lo estaba viendo,
+ella con eyeliner y esos ojos chinos como:
 
 一个 (Yí gè)
 女人 (nǚrén)
