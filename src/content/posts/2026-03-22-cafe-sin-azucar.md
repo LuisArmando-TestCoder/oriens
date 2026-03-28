@@ -52,5 +52,6 @@ me saque de la frente
 esta rueda iris doble marrón oscuro",
 aquellos dominantes
 cómo los consumo;
-pero ante el café sin azúcar, 
+pero ante el café sin azúcar,
+dormitantes,
 los ojos hazel son un rasgo recesivo.
