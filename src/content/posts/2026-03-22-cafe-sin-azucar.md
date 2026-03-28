@@ -54,7 +54,7 @@ y Klimt al mismo tiempo,
 y pensé: "quizá la peña de ese verde
 me saque de la frente 
 esta rueda iris doble marrón oscuro",
-y aquellos dominantes
-cómo los consumo,
+aquellos dominantes
+cómo los consumo;
 pero ante el café sin azúcar, 
 los ojos hazel son un rasgo recesivo.
