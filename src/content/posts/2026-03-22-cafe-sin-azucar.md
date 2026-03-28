@@ -54,4 +54,4 @@ esta rueda iris doble marrón oscuro",
 y cómo lo consumo.
 
 Mi café sin azúcar,
-haces al hazel recesivo.
+y el hazel recesivo.
