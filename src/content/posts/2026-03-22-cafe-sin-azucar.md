@@ -10,7 +10,7 @@ esa fluidez con la que uno, el lead,
 y el otro, el armónico, se compleementan, 
 pero hay una disonancia, 
 son homógrafos,
-a tientas sus registros, 
+sus registros a tientas, 
 como un agravio de Rimbaud 
 en un cartel corporativo,
 Charles Bukowski en "Make a Wish"
