@@ -13,8 +13,8 @@ son homógrafos,
 a tientas sus registros, 
 como un agravio de Rimbaud 
 en un cartel corporativo,
-Charles Bukowski en "Make a Wish", peinado
-para darle esperanza a una niña con cáncer;
+Charles Bukowski en "Make a Wish"
+frente a una niña con cáncer;
 propaganda punk en un quinto cumpleaños, 
 conciencia de clase apenas empezando;
 y el ego que clama estar vacío está lleno de egoísmo,
