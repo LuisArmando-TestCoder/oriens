@@ -32,7 +32,7 @@ me abrazaba diciendo: ¿ves en mí el negativo?
 
 Él lo presentía, yo me hacía el tonto, 
 homie, date cuenta;
-él le besaba el cuello,
+él besaba el cuello,
 ella me miraba con ojos de jaguar,
 él de espaldas no lo estaba viendo,
 ella con eyeliner y esos ojos chinos como:
