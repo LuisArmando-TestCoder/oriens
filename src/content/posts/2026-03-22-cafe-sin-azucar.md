@@ -34,7 +34,7 @@ homie, date cuenta;
 él besaba el cuello,
 ella me miraba con ojos de jaguar,
 él de espaldas no lo estaba viendo,
-ella con eyeliner y esos ojos chinos como:
+ella con eyeliner y esos ojos chinos:
 
 一个 (Yí gè)
 女人 (nǚrén)
